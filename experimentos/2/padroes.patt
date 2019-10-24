@@ -1,0 +1,222 @@
+['EQUAL(att_10;att_11)'] suporte: 0.060218978102189784
+['EQUAL(att_10;att_12)'] suporte: 0.05656934306569343
+['EQUAL(att_10;att_13)'] suporte: 0.060218978102189784
+['EQUAL(att_10;att_2)'] suporte: 0.05474452554744526
+['EQUAL(att_10;att_3)'] suporte: 0.06569343065693431
+['EQUAL(att_10;att_4)'] suporte: 0.058394160583941604
+['EQUAL(att_10;att_5)'] suporte: 0.060218978102189784
+['EQUAL(att_10;att_6)'] suporte: 0.058394160583941604
+['EQUAL(att_10;att_7)'] suporte: 0.05656934306569343
+['EQUAL(att_10;att_8)'] suporte: 0.05291970802919708
+['EQUAL(att_10;att_9)'] suporte: 0.060218978102189784
+['EQUAL(att_11;att_10)'] suporte: 0.060218978102189784
+['EQUAL(att_11;att_12)'] suporte: 0.05474452554744526
+['EQUAL(att_11;att_13)'] suporte: 0.06751824817518248
+['EQUAL(att_11;att_2)'] suporte: 0.058394160583941604
+['EQUAL(att_11;att_3)'] suporte: 0.06751824817518248
+['EQUAL(att_11;att_4)'] suporte: 0.06204379562043796
+['EQUAL(att_11;att_5)'] suporte: 0.06204379562043796
+['EQUAL(att_11;att_6)'] suporte: 0.05474452554744526
+['EQUAL(att_11;att_7)'] suporte: 0.05656934306569343
+['EQUAL(att_11;att_8)'] suporte: 0.058394160583941604
+['EQUAL(att_11;att_9)'] suporte: 0.06204379562043796
+['EQUAL(att_12;att_10)'] suporte: 0.05656934306569343
+['EQUAL(att_12;att_11)'] suporte: 0.05474452554744526
+['EQUAL(att_12;att_13)'] suporte: 0.05656934306569343
+['EQUAL(att_12;att_2)'] suporte: 0.05291970802919708
+['EQUAL(att_12;att_3)'] suporte: 0.06204379562043796
+['EQUAL(att_12;att_4)'] suporte: 0.05291970802919708
+['EQUAL(att_12;att_5)'] suporte: 0.06386861313868614
+['EQUAL(att_12;att_7)'] suporte: 0.05291970802919708
+['EQUAL(att_12;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_13;att_10)'] suporte: 0.060218978102189784
+['EQUAL(att_13;att_11)'] suporte: 0.06751824817518248
+['EQUAL(att_13;att_12)'] suporte: 0.05656934306569343
+['EQUAL(att_13;att_2)'] suporte: 0.058394160583941604
+['EQUAL(att_13;att_3)'] suporte: 0.06569343065693431
+['EQUAL(att_13;att_4)'] suporte: 0.05656934306569343
+['EQUAL(att_13;att_5)'] suporte: 0.06386861313868614
+['EQUAL(att_13;att_6)'] suporte: 0.05656934306569343
+['EQUAL(att_13;att_7)'] suporte: 0.058394160583941604
+['EQUAL(att_13;att_8)'] suporte: 0.05656934306569343
+['EQUAL(att_13;att_9)'] suporte: 0.06569343065693431
+['EQUAL(att_1;att_8)'] suporte: 0.051094890510948905
+['EQUAL(att_2;att_10)'] suporte: 0.05474452554744526
+['EQUAL(att_2;att_11)'] suporte: 0.058394160583941604
+['EQUAL(att_2;att_12)'] suporte: 0.05291970802919708
+['EQUAL(att_2;att_13)'] suporte: 0.058394160583941604
+['EQUAL(att_2;att_3)'] suporte: 0.06204379562043796
+['EQUAL(att_2;att_4)'] suporte: 0.05474452554744526
+['EQUAL(att_2;att_5)'] suporte: 0.058394160583941604
+['EQUAL(att_2;att_8)'] suporte: 0.051094890510948905
+['EQUAL(att_2;att_9)'] suporte: 0.058394160583941604
+['EQUAL(att_3;att_10)'] suporte: 0.06569343065693431
+['EQUAL(att_3;att_11)'] suporte: 0.06751824817518248
+['EQUAL(att_3;att_12)'] suporte: 0.06204379562043796
+['EQUAL(att_3;att_13)'] suporte: 0.06569343065693431
+['EQUAL(att_3;att_2)'] suporte: 0.06204379562043796
+['EQUAL(att_3;att_4)'] suporte: 0.06569343065693431
+['EQUAL(att_3;att_5)'] suporte: 0.06569343065693431
+['EQUAL(att_3;att_6)'] suporte: 0.058394160583941604
+['EQUAL(att_3;att_7)'] suporte: 0.060218978102189784
+['EQUAL(att_3;att_8)'] suporte: 0.058394160583941604
+['EQUAL(att_3;att_9)'] suporte: 0.06569343065693431
+['EQUAL(att_4;att_10)'] suporte: 0.058394160583941604
+['EQUAL(att_4;att_11)'] suporte: 0.06204379562043796
+['EQUAL(att_4;att_12)'] suporte: 0.05291970802919708
+['EQUAL(att_4;att_13)'] suporte: 0.05656934306569343
+['EQUAL(att_4;att_2)'] suporte: 0.05474452554744526
+['EQUAL(att_4;att_3)'] suporte: 0.06569343065693431
+['EQUAL(att_4;att_5)'] suporte: 0.06204379562043796
+['EQUAL(att_4;att_6)'] suporte: 0.058394160583941604
+['EQUAL(att_4;att_7)'] suporte: 0.058394160583941604
+['EQUAL(att_4;att_8)'] suporte: 0.060218978102189784
+['EQUAL(att_4;att_9)'] suporte: 0.06569343065693431
+['EQUAL(att_5;att_10)'] suporte: 0.060218978102189784
+['EQUAL(att_5;att_11)'] suporte: 0.06204379562043796
+['EQUAL(att_5;att_12)'] suporte: 0.06386861313868614
+['EQUAL(att_5;att_13)'] suporte: 0.06386861313868614
+['EQUAL(att_5;att_2)'] suporte: 0.058394160583941604
+['EQUAL(att_5;att_3)'] suporte: 0.06569343065693431
+['EQUAL(att_5;att_4)'] suporte: 0.06204379562043796
+['EQUAL(att_5;att_6)'] suporte: 0.05656934306569343
+['EQUAL(att_5;att_7)'] suporte: 0.06569343065693431
+['EQUAL(att_5;att_8)'] suporte: 0.060218978102189784
+['EQUAL(att_5;att_9)'] suporte: 0.072992700729927
+['EQUAL(att_6;att_10)'] suporte: 0.058394160583941604
+['EQUAL(att_6;att_11)'] suporte: 0.05474452554744526
+['EQUAL(att_6;att_13)'] suporte: 0.05656934306569343
+['EQUAL(att_6;att_3)'] suporte: 0.058394160583941604
+['EQUAL(att_6;att_4)'] suporte: 0.058394160583941604
+['EQUAL(att_6;att_5)'] suporte: 0.05656934306569343
+['EQUAL(att_6;att_7)'] suporte: 0.058394160583941604
+['EQUAL(att_6;att_8)'] suporte: 0.051094890510948905
+['EQUAL(att_6;att_9)'] suporte: 0.06204379562043796
+['EQUAL(att_7;att_10)'] suporte: 0.05656934306569343
+['EQUAL(att_7;att_11)'] suporte: 0.05656934306569343
+['EQUAL(att_7;att_12)'] suporte: 0.05291970802919708
+['EQUAL(att_7;att_13)'] suporte: 0.058394160583941604
+['EQUAL(att_7;att_3)'] suporte: 0.060218978102189784
+['EQUAL(att_7;att_4)'] suporte: 0.058394160583941604
+['EQUAL(att_7;att_5)'] suporte: 0.06569343065693431
+['EQUAL(att_7;att_6)'] suporte: 0.058394160583941604
+['EQUAL(att_7;att_8)'] suporte: 0.05474452554744526
+['EQUAL(att_7;att_9)'] suporte: 0.06386861313868614
+['EQUAL(att_8;att_1)'] suporte: 0.051094890510948905
+['EQUAL(att_8;att_10)'] suporte: 0.05291970802919708
+['EQUAL(att_8;att_11)'] suporte: 0.058394160583941604
+['EQUAL(att_8;att_13)'] suporte: 0.05656934306569343
+['EQUAL(att_8;att_2)'] suporte: 0.051094890510948905
+['EQUAL(att_8;att_3)'] suporte: 0.058394160583941604
+['EQUAL(att_8;att_4)'] suporte: 0.060218978102189784
+['EQUAL(att_8;att_5)'] suporte: 0.060218978102189784
+['EQUAL(att_8;att_6)'] suporte: 0.051094890510948905
+['EQUAL(att_8;att_7)'] suporte: 0.05474452554744526
+['EQUAL(att_8;att_9)'] suporte: 0.058394160583941604
+['EQUAL(att_9;att_10)'] suporte: 0.060218978102189784
+['EQUAL(att_9;att_11)'] suporte: 0.06204379562043796
+['EQUAL(att_9;att_12)'] suporte: 0.05656934306569343
+['EQUAL(att_9;att_13)'] suporte: 0.06569343065693431
+['EQUAL(att_9;att_2)'] suporte: 0.058394160583941604
+['EQUAL(att_9;att_3)'] suporte: 0.06569343065693431
+['EQUAL(att_9;att_4)'] suporte: 0.06569343065693431
+['EQUAL(att_9;att_5)'] suporte: 0.072992700729927
+['EQUAL(att_9;att_6)'] suporte: 0.06204379562043796
+['EQUAL(att_9;att_7)'] suporte: 0.06386861313868614
+['EQUAL(att_9;att_8)'] suporte: 0.058394160583941604
+['EQUAL(att_10;att_11)', 'EQUAL(att_10;att_13)'] suporte: 0.051094890510948905
+['EQUAL(att_10;att_11)', 'EQUAL(att_10;att_3)'] suporte: 0.051094890510948905
+['EQUAL(att_10;att_5)', 'EQUAL(att_10;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_10)', 'EQUAL(att_11;att_13)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_10)', 'EQUAL(att_11;att_3)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_13)', 'EQUAL(att_11;att_2)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_13)', 'EQUAL(att_11;att_3)'] suporte: 0.058394160583941604
+['EQUAL(att_11;att_13)', 'EQUAL(att_11;att_4)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_13)', 'EQUAL(att_11;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_11;att_13)', 'EQUAL(att_11;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_11;att_2)', 'EQUAL(att_11;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_11;att_3)', 'EQUAL(att_11;att_4)'] suporte: 0.05291970802919708
+['EQUAL(att_11;att_3)', 'EQUAL(att_11;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_11;att_3)', 'EQUAL(att_11;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_11;att_4)', 'EQUAL(att_11;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_11;att_5)', 'EQUAL(att_11;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_12;att_3)', 'EQUAL(att_12;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_12;att_5)', 'EQUAL(att_12;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_13;att_10)', 'EQUAL(att_13;att_11)'] suporte: 0.051094890510948905
+['EQUAL(att_13;att_11)', 'EQUAL(att_13;att_2)'] suporte: 0.051094890510948905
+['EQUAL(att_13;att_11)', 'EQUAL(att_13;att_3)'] suporte: 0.058394160583941604
+['EQUAL(att_13;att_11)', 'EQUAL(att_13;att_4)'] suporte: 0.051094890510948905
+['EQUAL(att_13;att_11)', 'EQUAL(att_13;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_13;att_11)', 'EQUAL(att_13;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_13;att_2)', 'EQUAL(att_13;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_13;att_3)', 'EQUAL(att_13;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_13;att_3)', 'EQUAL(att_13;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_13;att_5)', 'EQUAL(att_13;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_2;att_11)', 'EQUAL(att_2;att_13)'] suporte: 0.051094890510948905
+['EQUAL(att_2;att_11)', 'EQUAL(att_2;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_2;att_13)', 'EQUAL(att_2;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_2;att_5)', 'EQUAL(att_2;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_10)', 'EQUAL(att_3;att_11)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_11)', 'EQUAL(att_3;att_13)'] suporte: 0.058394160583941604
+['EQUAL(att_3;att_11)', 'EQUAL(att_3;att_2)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_11)', 'EQUAL(att_3;att_4)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_11)', 'EQUAL(att_3;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_11)', 'EQUAL(att_3;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_12)', 'EQUAL(att_3;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_13)', 'EQUAL(att_3;att_2)'] suporte: 0.05291970802919708
+['EQUAL(att_3;att_13)', 'EQUAL(att_3;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_13)', 'EQUAL(att_3;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_4)', 'EQUAL(att_3;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_4)', 'EQUAL(att_3;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_3;att_5)', 'EQUAL(att_3;att_7)'] suporte: 0.051094890510948905
+['EQUAL(att_3;att_5)', 'EQUAL(att_3;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_4;att_11)', 'EQUAL(att_4;att_13)'] suporte: 0.051094890510948905
+['EQUAL(att_4;att_11)', 'EQUAL(att_4;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_4;att_11)', 'EQUAL(att_4;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_4;att_3)', 'EQUAL(att_4;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_4;att_3)', 'EQUAL(att_4;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_4;att_5)', 'EQUAL(att_4;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_4;att_6)', 'EQUAL(att_4;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_10)', 'EQUAL(att_5;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_11)', 'EQUAL(att_5;att_13)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_11)', 'EQUAL(att_5;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_11)', 'EQUAL(att_5;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_12)', 'EQUAL(att_5;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_12)', 'EQUAL(att_5;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_13)', 'EQUAL(att_5;att_3)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_13)', 'EQUAL(att_5;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_5;att_2)', 'EQUAL(att_5;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_3)', 'EQUAL(att_5;att_4)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_3)', 'EQUAL(att_5;att_7)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_3)', 'EQUAL(att_5;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_5;att_4)', 'EQUAL(att_5;att_9)'] suporte: 0.05474452554744526
+['EQUAL(att_5;att_6)', 'EQUAL(att_5;att_7)'] suporte: 0.051094890510948905
+['EQUAL(att_5;att_6)', 'EQUAL(att_5;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_5;att_7)', 'EQUAL(att_5;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_5;att_8)', 'EQUAL(att_5;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_6;att_4)', 'EQUAL(att_6;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_6;att_5)', 'EQUAL(att_6;att_7)'] suporte: 0.051094890510948905
+['EQUAL(att_6;att_5)', 'EQUAL(att_6;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_6;att_7)', 'EQUAL(att_6;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_7;att_3)', 'EQUAL(att_7;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_7;att_5)', 'EQUAL(att_7;att_6)'] suporte: 0.051094890510948905
+['EQUAL(att_7;att_5)', 'EQUAL(att_7;att_9)'] suporte: 0.05656934306569343
+['EQUAL(att_7;att_6)', 'EQUAL(att_7;att_9)'] suporte: 0.05291970802919708
+['EQUAL(att_8;att_5)', 'EQUAL(att_8;att_9)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_10)', 'EQUAL(att_9;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_11)', 'EQUAL(att_9;att_13)'] suporte: 0.05474452554744526
+['EQUAL(att_9;att_11)', 'EQUAL(att_9;att_3)'] suporte: 0.05291970802919708
+['EQUAL(att_9;att_11)', 'EQUAL(att_9;att_4)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_11)', 'EQUAL(att_9;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_9;att_12)', 'EQUAL(att_9;att_5)'] suporte: 0.05291970802919708
+['EQUAL(att_9;att_13)', 'EQUAL(att_9;att_3)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_13)', 'EQUAL(att_9;att_5)'] suporte: 0.05656934306569343
+['EQUAL(att_9;att_2)', 'EQUAL(att_9;att_5)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_3)', 'EQUAL(att_9;att_4)'] suporte: 0.05474452554744526
+['EQUAL(att_9;att_3)', 'EQUAL(att_9;att_5)'] suporte: 0.05656934306569343
+['EQUAL(att_9;att_4)', 'EQUAL(att_9;att_5)'] suporte: 0.05474452554744526
+['EQUAL(att_9;att_4)', 'EQUAL(att_9;att_6)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_5)', 'EQUAL(att_9;att_6)'] suporte: 0.05291970802919708
+['EQUAL(att_9;att_5)', 'EQUAL(att_9;att_7)'] suporte: 0.05656934306569343
+['EQUAL(att_9;att_5)', 'EQUAL(att_9;att_8)'] suporte: 0.051094890510948905
+['EQUAL(att_9;att_6)', 'EQUAL(att_9;att_7)'] suporte: 0.05291970802919708
