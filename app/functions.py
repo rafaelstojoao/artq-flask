@@ -74,7 +74,7 @@ def buscaPontosdeInteresse(numDesvios,dados,arrayAtributos,arraySETUP_POIS):
 
                 # fp.write("\nMédia: "+str(media))
                 # fp.write("\nDesvio Padrão: "+str(desvPadrao))
-
+                print("teste")
                 #print(arraySETUP_POIS[index])
                 if(arraySETUP_POIS[index] == 'btw'):
                     if(valorInicio <= float(linha[index]) <= valorFim): # se o valor esta entre os desvios padrão [-,+]
