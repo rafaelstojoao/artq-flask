@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if padroes %}
+<div  id="divPadroes">
+<h1>Padrões encontrados</h1>
+    <br />
+{{ padroes|safe }}
+{% endif %}
+
+</div>
+
+{% if regras %}
+<div  id="divRegras">
+<br />
+    <h1>Regras de associação geradas</h1>
+<br />
+{{ regras|safe }}
+{% endif %}
+
+</div>
+<div>
+    <form >
+        <a href="/intervalosInteresse.png"> Gerar Intervalos</a><br />
+        <a href="/apriori"> Encontrar padrões e gerar regras de associação</a>
+    </form>
+</div>
+{% endblock %}

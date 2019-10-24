@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+	<span>ART-Q é um trabalho de doutorado</span>
+ 	<div>
+		<form action='/artq' method = "POST" enctype="multipart/form-data">
+			Base de dados (Entrada):<input name = "databaseForm" type = "file">
+			<input type="submit" Value="Hopla!" alt='the french phrase to mean "here we go" "there we go"' title='the french phrase to mean "here we go" "there we go"'>
+		</form>
+	</div>
+ 	<div>
+		{% if conteudoArq %}
+			<div style='width:900px; height: 400px; overflow:scroll;' >{{ conteudoArq }}</div>
+		{% endif %}
+ 	</div>
+		{% if medias %}
+			<form action="/poi" method="POST">
+				<h1>Values:</h1>
+				{{ medias|safe}}
+				<input type="submit" value="Find POI (Points of Interest)">
+			</form>
+		{% endif %}
+{% endblock %}
+

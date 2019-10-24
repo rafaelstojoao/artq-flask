@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if pois %}
+<div  id="divIntervalos">
+
+{{ intervalos|safe }}
+{% endif %}
+
+</div>
+
+{% endblock %}

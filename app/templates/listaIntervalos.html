@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if intervalos %}
+<div  id="divIntervalos">
+
+{{ intervalos|safe }}
+{% endif %}
+
+</div>
+<div>
+    <form >
+        <a href="/aia"> Identificar Relações da AIA</a>
+        <a href="/intervalosInteresse.png"> Gerar Intervalos</a>
+    </form>
+</div>
+{% endblock %}

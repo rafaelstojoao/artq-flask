@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if pois %}
+<div  id="divPoi">
+
+{{ pois|safe }}
+{% endif %}
+
+</div>
+<br />
+<div style="float:left;">
+    <form >
+        <a href="/aia"> Identifying AIA relations</a>
+        <a href="/imprimirIntervalos" target="_blank"> Show temporal intervals</a>
+        <a href="/intervalosInteresse.png" target="_blank">Generate intervals</a>
+    </form>
+</div>
+{% endblock %}

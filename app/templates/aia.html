@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if relat %}
+<div  id="divAIA">
+
+{{ relat|safe }}
+{% endif %}
+
+</div>
+<div>
+    <form >
+        <a href="/intervalosInteresse.png"> Gerar Intervalos</a><br />
+        <a href="/apriori"> Encontrar padrões e gerar regras de associação</a>
+    </form>
+</div>
+{% endblock %}
