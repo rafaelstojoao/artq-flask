@@ -108,14 +108,15 @@ class Apryori:
             itemsTam1 = []
             for transaction in self.dataset:
                 for item in transaction:
-                     if item not in itemsTam1:
+                     if item not in itemsTam1 and item != '':
                         itemsTam1.append(item)
             itemsTam1.sort()
             listaCandidatostemp = []
             for item in itemsTam1: #é preciso transformar cada item em um candidato.
-                cand  = itemset()
-                cand.items = [item]
-                listaCandidatostemp.append(cand)
+                if item != "":
+                    cand  = itemset()
+                    cand.items = [item]
+                    listaCandidatostemp.append(cand)
             self.listadeCandidatos.append(listaCandidatostemp)
 
         elif len(self.listadePadroes[i - 1]) <= 1:
@@ -301,9 +302,9 @@ class Apryori:
 
 
 
-if __name__ == '__main__':
-    apr = Apryori()
-    # dataset = apr.loadDataSetFromFile()
-    dataset = apr.loadDataSet()
-
-    apr.apriori(dataset,0.025,0.8)
+# if __name__ == '__main__':
+#     apr = Apryori()
+#     # dataset = apr.loadDataSetFromFile()
+#     dataset = apr.loadDataSet()
+#
+#     apr.apriori(dataset,0.025,0.8)

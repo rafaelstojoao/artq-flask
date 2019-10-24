@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="" />
+    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dados/entrada/csv/mercado.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classAIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/classAIA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/._rules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_11_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_11_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_1_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_2_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_4_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_5_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_5_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_6_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_7_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_7_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_8_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_9_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_9_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/padroes.patt" beforeDir="false" afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intervalos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myfirstflask">
+  <component name="RunManager" selected="Python.timeline">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,27 +117,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/classAIA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lotofacil" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="myproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lotofacil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,20 +167,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="timeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/timeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.myfirstflask" />
       <item itemvalue="Python.apriori" />
       <item itemvalue="Python.classAIA" />
-      <item itemvalue="Python.lotofacil" />
       <item itemvalue="Python.testes" />
+      <item itemvalue="Python.timeline" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.myfirstflask" />
+        <item itemvalue="Python.timeline" />
         <item itemvalue="Python.apriori" />
         <item itemvalue="Python.testes" />
         <item itemvalue="Python.classAIA" />
-        <item itemvalue="Python.lotofacil" />
       </list>
     </recent_temporary>
   </component>

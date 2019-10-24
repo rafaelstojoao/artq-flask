@@ -91,7 +91,7 @@ class Aia:
 
         for int in self.arrayIntervalosOrdenados:#para cada um dos intervalos
             # self.fpRelacoes.write("\n Data selecionada -------"+str(date.fromordinal(int[0])))
-            self.fpRelacoes.write("\n")
+           # self.fpRelacoes.write("\n")
             print("Data selecionada",date.fromordinal(int[0]))
             i1.t_i = date.fromordinal(int[0])
             i1.t_f = date.fromordinal(int[1])
@@ -105,6 +105,8 @@ class Aia:
                 i2.t_f = date.fromordinal(s[1])
                 i2.atributoTag = s[2]
                 self.identificaRelacao(i1,i2)
+
+            self.fpRelacoes.write("\n")
         self.fpRelacoes.close()
 
 

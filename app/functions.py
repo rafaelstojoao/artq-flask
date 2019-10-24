@@ -159,6 +159,7 @@ def geraIntervalos(lista_de_atributos, janela = 5):
                 if (len(arrayIntervalos) == 0):
                     inter = Intervalo()
                     inter.t_f = inter.t_i = ponto
+                    inter.atributoTag = "att_" + str(i + 1)
                     inter.listaDePontosTemporais.append(ponto)
                     arrayIntervalos.append(inter)
 
