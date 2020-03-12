@@ -14,6 +14,7 @@ class rule:
         self.allItems   = []
         self.dataset    = []
 
+
     def printRule(self):
         print(self.X,'-->',self.Y,'sup: ',self.getSupport(),' conf:',self.getConfidence(), 'lift: ',self.lift, 'conviction: ',self.conviction)
         fpRules = open("dados/rules.rul","a+")
@@ -69,6 +70,7 @@ class Apryori:
         self.listadePadroes     = []
         self.listadeCandidatos  = []
         self.listRules          = []
+        fpRules = open("dados/rules.rul","a+")
 
     def loadDataSetFromFile(self):
         import csv

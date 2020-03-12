@@ -2,127 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/.~lock.rel_experimentos.odp#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/RelacoesTemporais.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_10_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_10_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_11_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_11_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_12_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_12_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_13_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_13_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_1_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_1_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_2_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_2_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_3_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_3_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_4_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_4_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_5_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_5_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_6_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_6_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_7_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_7_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_8_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_8_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_9_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/att_9_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/intervalosInteresse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/padroes.patt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/1/rules.rul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/RelacoesTemporais.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_10_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_10_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_11_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_11_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_12_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_12_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_13_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_13_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_1_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_1_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_2_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_2_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_3_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_3_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_4_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_4_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_5_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_5_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_6_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_6_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_7_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_7_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_8_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_8_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_9_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/att_9_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/intervalosInteresse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/padroes.patt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/2/rules.rul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/RelacoesTemporais.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_10_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_10_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_11_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_11_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_12_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_12_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_13_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_13_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_1_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_1_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_2_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_2_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_3_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_3_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_4_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_4_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_5_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_5_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_6_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_6_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_7_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_7_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_8_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_8_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_9_INTERVALOS_interesse.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/att_9_POIs.pois" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/intervalosInteresse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/padroes.patt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/3/rules.rul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentos/rel_experimentos.odp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_10_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_10_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_11_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_11_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_12_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_12_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_13_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_13_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_14_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_15_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_16_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_17_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_18_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_19_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_1_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_20_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_21_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_22_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_23_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_24_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_25_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_26_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_27_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_28_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_29_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_2_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_30_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_31_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_32_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_33_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_34_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_35_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_36_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_37_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_38_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_39_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_40_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_41_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_42_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_43_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_44_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_45_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_46_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_47_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_48_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_49_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_50_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_51_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_52_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_53_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_54_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_55_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_56_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_57_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_58_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_59_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_5_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_60_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_61_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_62_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_63_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_64_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_65_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_66_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_67_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_68_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_6_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_7_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_8_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_9_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_9_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/entrada/Dados_BRasil/.~lock.API_BRA_DS2_en_csv_v2_386420.csv#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/entrada/Dados_BRasil/API_BRA_DS2_en_csv_v2_386420.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/entrada/Dados_BRasil/Metadata_Country_API_BRA_DS2_en_csv_v2_386420.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/entrada/Dados_BRasil/Metadata_Indicator_API_BRA_DS2_en_csv_v2_386420.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/4/intervalosInteresse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/.~lock.BRA-econdb.csv#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/.~lock.BRdata.csv#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/ARGPopular" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Series - Metadata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/BRA-econdb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Series - Metadata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/datasets/BRdata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._SCarlos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._SCarlos2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___SCarlos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaCamposDoJordao2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaFranca2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaPresidentePrudente2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaSaoCarlos2007-2018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaSaoCarlos2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaSaoCarlos2007-2018.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaSaoCarlos2007-2018Novo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___climaSaoPaulo2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/.___ventoSaoCarlos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaCamposDoJordao2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaFranca2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaPresidentePrudente2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaSaoCarlos2007-2018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaSaoCarlos2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaSaoCarlos2007-2018.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaSaoCarlos2007-2018Novo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._climaSaoPaulo2007-2018.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/INMET/._ventoSaoCarlos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/csv/.~lock.indicadoresAmericaDoSul.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/dados/entrada/csv/.~lock.indicadoresAmericaDoSul.csv#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/entrada/csv/indicadoresAmericaDoSul.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/entrada/csv/indicadoresAmericaDoSul.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classAIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/classAIA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._artq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._intervalos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._listaIntervalos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._poi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/._sobre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/aia.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/aia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/artq.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/artq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/poi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/poi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experimentos/.~lock.rel_experimentos.odp#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experimentos/rel_experimentos.odp" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/rel_experimentos.odp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intervalos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,9 +142,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -155,19 +160,7 @@
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.timeline">
+  <component name="RunManager" selected="Python.myfirstflask">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,5 +311,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1583515998502">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1583515998502" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1583515998501">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1583515998501" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1583515998501">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1583515998501" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1583515998501">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1583515998501" />
   </component>
 </project>

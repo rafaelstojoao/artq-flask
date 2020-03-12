@@ -70,7 +70,7 @@ class Aia:
 
         else:
             rel = "NONE"
-            print("There is any relation!")
+            print("No relation for you!")
         # fpRelacoes.write(str(rel)+"("+str(int1.atributoTag)+","+str(int2.atributoTag)+")")
 
         if  (rel != "NONE"):

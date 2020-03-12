@@ -5,6 +5,12 @@ from app.classDados import Dados
 dados = Dados()
 lista_de_atributos = []
 
+janela_para_intervalo = 1460
+janela_para_relacoes = 1460
+minsup = 0.1
+minconf = 80
+
+
 
 @app.route('/')
 @app.route('/index')
@@ -22,11 +28,29 @@ def sobre():
 def apriori():
     apr = Apryori()
     dataset = apr.loadDataSetFromFile()
-    apr.apriori(dataset,0.05,0.8)
+    apr.apriori(dataset,minsup,minconf)
 
     pat = functions.listaPadroes()
     reg = functions.listaRegras()
     return render_template('apriori.html', padroes=pat, regras=reg)
+
+
+
+@app.route('/artqconfig', methods=['GET', 'POST'])
+def artqconfig():
+    global minconf
+    global minsup
+    global janela_para_relacoes
+    global janela_para_intervalo
+
+    if request.method == 'POST':
+
+        req = request.form
+        minsup = float(req.get("inpminsup"))
+        minconf = float(req.get('inpminconf'))
+        janela_para_relacoes = int(req.get('inprelwind'))
+        janela_para_intervalo = int(req.get('inpintwind'))
+        return render_template('artq.html', configOk=True, pms = minsup, pmc = minconf, prw = janela_para_relacoes, piw = janela_para_intervalo)
 
 
 @app.route('/artq', methods=['GET', 'POST'])
@@ -102,7 +126,7 @@ def poi():
 
     res = functions.buscaPontosdeInteresse(1, dados, lista_de_atributos,arr_setup_pois)
     poisResult = functions.listaPois(dados, lista_de_atributos,arr_setup_pois)
-    inter = functions.geraIntervalos(lista_de_atributos)
+    inter = functions.geraIntervalos(lista_de_atributos,janela_para_intervalo)
 
     return render_template('poi.html', pois=poisResult)
 
@@ -110,7 +134,7 @@ def poi():
 @app.route('/intervalos')
 def intervalos():
     global lista_de_atributos
-    inter = functions.geraIntervalos(lista_de_atributos)
+    inter = functions.geraIntervalos(lista_de_atributos,janela_para_intervalo) # a janela para construção do intervalo deve ser passada como parâmetro
     return render_template('intervalos.html', intervalos = inter)
 
 
@@ -120,6 +144,6 @@ def aia():
 
     print(lista_de_atributos)
 
-    relations = functions.geraAIA(lista_de_atributos)
+    relations = functions.geraAIA(lista_de_atributos,janela_para_relacoes)
     # print(relations)
     return render_template('aia.html', relat = relations)

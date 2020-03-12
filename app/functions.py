@@ -9,7 +9,9 @@ def listaMedias(dados,lista_de_atributos):
         <tr>
         """
     for item in dados.getCabecalho():
-        ret += "<td style='border-left: 1px dotted; padding-left: 20px;'    ><b>"+str(item)+"</b></td>"
+        ret += "<td style='border-left: 1px dotted; padding-left: 20px;'    ><b>"+str(item)+"</b> <br/>" \
+                                                                                            "Ignore attribute<input type='checkbox'></td>"
+
     ret += "</tr><tr >"
     indiceAtributo = -1
     for item in lista_de_atributos:
@@ -146,7 +148,7 @@ def tryDate(datestr):
         return False
 
 
-def geraIntervalos(lista_de_atributos, janela = 5):
+def geraIntervalos(lista_de_atributos, janela):
     i = 0
     for at in lista_de_atributos:
         if at.qtdValores >1:
@@ -219,9 +221,10 @@ def listarIntervalosTemporais(lista_de_atributos,dados):
     return  html
 
 
-def geraAIA(lista_de_atributos):
+def geraAIA(lista_de_atributos,janela):
     from app.classAIA import Aia
-    aia = Aia(15)
+    aia = Aia(janela)
+    # aia = Aia(15)
     todosIntervalos = []
 
     for i in range(len(lista_de_atributos)):
@@ -304,35 +307,6 @@ def geraAIA2(lista_de_atributos):
                 "<h1>Atributo "+str(i)+"</h1>"\
                 "<ul>"
 
-        # if lista_de_atributos[i].listaDeIntervalosDeInteresse:
-        #     arrayIntervalos = lista_de_atributos[i].listaDeIntervalosDeInteresse
-
-            #aia.ordenaIntervalos(arrayIntervalos)
-            # aia.executaAIA()
-
-#            oldIntervalo = arrayIntervalos[0]
- #           for int in arrayIntervalos:
-  #              rel = aia.identificaRelacao(oldIntervalo, int)
-   #             oldIntervalo = int
-    #            html += "<li>"+str(int.t_i)+","+str(int.t_f)+" RELATION: "+ str(rel)+"</li>"
-
-     #       html += "</ul></div>"
-
-
-    # for i in range(10):
-    #     i1 = Intervalo()
-    #     dtRand = aia.geraUmaDataAleatoria()
-    #     dtRand2 = aia.geraUmaDataAleatoria(dtRand, 79)
-    #
-    #     if (dtRand < dtRand2):
-    #         i1.t_i = dtRand
-    #         i1.t_f = dtRand2
-    #
-    #     else:
-    #         i1.t_i = dtRand2
-    #         i1.t_f = dtRand
-
-        # arrayIntervalos.append(i1)
 
 
 

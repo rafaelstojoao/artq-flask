@@ -2,10 +2,30 @@
 {% block content %}
 	<span>ART-Q é um trabalho de doutorado</span>
  	<div>
+
+
+		{% if configOk %}
 		<form action='/artq' method = "POST" enctype="multipart/form-data">
 			Base de dados (Entrada):<input name = "databaseForm" type = "file">
 			<input type="submit" Value="Hopla!" alt='the french phrase to mean "here we go" "there we go"' title='the french phrase to mean "here we go" "there we go"'>
 		</form>
+		{% else %}
+		<form action='/artqconfig' method = "POST"  >
+			<label for="inpminsup">Min Sup: </label>
+			<input	type="number" placeholder="Please, insert minsup parameter" step="0.0001" name="inpminsup"><br/>
+
+			<label for="inpminconf">Min Conf: </label>
+			<input	type="number" placeholder="Please, insert minconf parameter" step="0.0001" name="inpminconf"><br/>
+
+			<label for="inpintwind">Max interval size (in days): </label>
+			<input	type="number" placeholder="Please, insert the interval window parameter" name="inpintwind"><br/>
+
+			<label for="inprelwind">Max window to consider relations (in days) </label>
+			<input	type="number" placeholder="Please, insert the relation window parameter" name="inprelwind"><br/>
+			<input type="submit" Value="Configure parameters!" alt='Configure parameters' title='configure parameters'>
+		</form>
+		{% endif %}
+
 	</div>
  	<div>
 		{% if conteudoArq %}
