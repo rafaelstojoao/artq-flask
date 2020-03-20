@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from app.classIntervalo import *
+from app.classDados import *
 import numpy as np
 
 def listaMedias(dados,lista_de_atributos):
@@ -20,7 +21,8 @@ def listaMedias(dados,lista_de_atributos):
             ret += "<td>Date value</td>"
         #select = request.form.get('select-att')
 
-        elif item.getMedia():
+        elif item.tipoValor == "Numeric":
+            # item.showMe() #método que mostra todos os valores de um atributo
             ret += "<td style='border-left: 1px dotted; padding: 20px;'>" \
                    "average("+str(item.getMedia())+ ") /<br/> std. deviation("+str(item.getDesvioPadrao())+")<br/>" \
                     "<select name='select-att"+str(indiceAtributo)+"'>" \
@@ -31,7 +33,7 @@ def listaMedias(dados,lista_de_atributos):
                     "</select>"\
                     "</td>"
         elif item.tipoValor == "String":
-            ret += "<td>String value</td>"
+            ret += "<td>String value - ignored</td>"
         else:
             ret+="<td></td>"
     ret += """
@@ -50,7 +52,7 @@ def buscaPontosdeInteresse(numDesvios,dados,arrayAtributos,arraySETUP_POIS):
         arrayAtributos[i].listaTransacoesInteresse = []
         arrayAtributos[i].listaDeIntervalosDeInteresse = []
         if (arrayAtributos[i].qtdValores > 1):
-            fp = open("dados/att_" + str(i) + "_POIs.pois", "a+")
+            fp = open("dados/att_" + str(i) + "_POIs.pois", "w+")
             media = float(arrayAtributos[i].getMedia())
             desvPadrao = arrayAtributos[i].getDesvioPadrao()
 
@@ -66,7 +68,7 @@ def buscaPontosdeInteresse(numDesvios,dados,arrayAtributos,arraySETUP_POIS):
 
         for i in linha:
             if (arrayAtributos[index].qtdValores > 1):
-                fp = open("dados/att_"+str(index)+"_POIs.pois","a+")
+                fp = open("dados/att_"+str(index)+"_POIs.pois","w+")
 
 
                 media = float(arrayAtributos[index].getMedia())
@@ -77,6 +79,12 @@ def buscaPontosdeInteresse(numDesvios,dados,arrayAtributos,arraySETUP_POIS):
                 # fp.write("\nMédia: "+str(media))
                 # fp.write("\nDesvio Padrão: "+str(desvPadrao))
                 #print(arraySETUP_POIS[index])
+
+                valor = linha[index]
+                # if (dados.tryReal(valor) == False):
+                #     print('valor não numérico')
+
+                # else:
                 if(arraySETUP_POIS[index] == 'btw'):
                     if(valorInicio <= float(linha[index]) <= valorFim): # se o valor esta entre os desvios padrão [-,+]
                         arrayAtributos[index].listaTransacoesInteresse.append(contalinhas)
@@ -115,10 +123,12 @@ def buscaPontosdeInteresse(numDesvios,dados,arrayAtributos,arraySETUP_POIS):
 
 def listaPois(dados,lista_de_atributos,arr_setup_pois):
     cont = ""
+    poi = open('pois.txt','w+')
     for at in range(len(lista_de_atributos)):
         cont += "<div class='poisDiv'><ul>" \
                 "<li>Attribute: "+ dados.cabecalho[at]+"</li>" \
                                                        "<li> Setup: "
+        poi.write(str(cont))
         if(arr_setup_pois[at] == 'btw'):
             cont += " Between starndard deviation</li>"
         elif (arr_setup_pois[at] == 'blw'):
@@ -130,32 +140,28 @@ def listaPois(dados,lista_de_atributos,arr_setup_pois):
 
         cont+="<br/>"
 
+        print(len(lista_de_atributos[at].listaTransacoesInteresse))
+        try:
+            for i in range(len(lista_de_atributos[at].listaTransacoesInteresse)):
+                poi.write("<li>["+str(lista_de_atributos[at].listaTransacoesInteresse[i])+", "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"]</li>")
+                cont += "<li>["+str(lista_de_atributos[at].listaTransacoesInteresse[i])+", "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"]</li>"
+        except:
+            print('not accecible')
 
-        for i in range(len(lista_de_atributos[at].listaTransacoesInteresse)):
-            cont += "<li>["+str(lista_de_atributos[at].listaTransacoesInteresse[i])+", "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"]</li>"
         cont += "</ul></div>"
+
+
     return cont
-
-
-
-def tryDate(datestr):
-    from datetime import datetime
-    try:
-        datetmp = datestr.replace('/','-')
-        d = datetime.strptime(datetmp, "%d-%m-%Y")
-        return d
-    except ValueError:
-        return False
-
 
 def geraIntervalos(lista_de_atributos, janela):
     i = 0
+    d = Dados()
     for at in lista_de_atributos:
         if at.qtdValores >1:
             arrayIntervalos = []
 
             for pontoTemporal in at.listaDePontosTemporaisDeInteresse:
-                ponto = tryDate(pontoTemporal)
+                ponto = d.convertToDate(pontoTemporal)
 
                 if (len(arrayIntervalos) == 0):
                     inter = Intervalo()
@@ -199,7 +205,7 @@ def geraIntervalos(lista_de_atributos, janela):
                         arrayIntervalos.append(inter)
             i+=1
             at.listaDeIntervalosDeInteresse = sorted(arrayIntervalos, key=lambda x: x.t_i)
-            fpintevalos = open("dados/att_" + str(i) + "_INTERVALOS_interesse.int", "a+")
+            fpintevalos = open("dados/att_" + str(i) + "_INTERVALOS_interesse.int", "w+")
 
             for int in at.listaDeIntervalosDeInteresse:
                 fpintevalos.write(str(int.atributoTag)+","+str((int.t_i).strftime('%Y/%m/%d'))+","+str((int.t_f).strftime('%Y/%m/%d'))+"\n")
@@ -254,7 +260,7 @@ def geraAIA(lista_de_atributos,janela):
 def listaPadroes():
     import csv
     inputFile = "dados/padroes.patt"
-    with open(inputFile) as decoded_file:
+    with open(inputFile,'w+') as decoded_file:
         linhas = csv.reader(decoded_file)
 
         conteudo = ""
@@ -278,34 +284,34 @@ def listaRegras():
 
     return conteudo
 
-def geraAIA2(lista_de_atributos):
-    import time
-    from app.classAIA import Aia
-
-    start = time.time()
-    aia = Aia(1145)
-    # aia.listaRelacoesPossiveis()
-
-
-    matrizIntervalos = []
-    html = ""
-
-    for i in range(len(lista_de_atributos)):
-        if lista_de_atributos[i].listaDeIntervalosDeInteresse:
-            arrayIntervalos = aia.ordenaIntervalos(lista_de_atributos[i].listaDeIntervalosDeInteresse)
-            matrizIntervalos.append(arrayIntervalos)
-
-    for i in range(len(lista_de_atributos)):
-        arrayIntervalos = matrizIntervalos[i] #pega todos os  intervalos do atributo na posicao i
-        restoIntervalos = np.arange(len(matrizIntervalos))!=i # pega todos os intervalos dos outros atributos
-
-        for interResto in restoIntervalos:
-            rel = aia.identificaRelacao(arrayIntervalos,interResto)
-            print(rel)
-
-        html += "<div class='intervaloDiv'>" \
-                "<h1>Atributo "+str(i)+"</h1>"\
-                "<ul>"
+# def geraAIA2(lista_de_atributos):
+#     import time
+#     from app.classAIA import Aia
+#
+#     start = time.time()
+#     aia = Aia(1145)
+#     # aia.listaRelacoesPossiveis()
+#
+#
+#     matrizIntervalos = []
+#     html = ""
+#
+#     for i in range(len(lista_de_atributos)):
+#         if lista_de_atributos[i].listaDeIntervalosDeInteresse:
+#             arrayIntervalos = aia.ordenaIntervalos(lista_de_atributos[i].listaDeIntervalosDeInteresse)
+#             matrizIntervalos.append(arrayIntervalos)
+#
+#     for i in range(len(lista_de_atributos)):
+#         arrayIntervalos = matrizIntervalos[i] #pega todos os  intervalos do atributo na posicao i
+#         restoIntervalos = np.arange(len(matrizIntervalos))!=i # pega todos os intervalos dos outros atributos
+#
+#         for interResto in restoIntervalos:
+#             rel = aia.identificaRelacao(arrayIntervalos,interResto)
+#             print(rel)
+#
+#         html += "<div class='intervaloDiv'>" \
+#                 "<h1>Atributo "+str(i)+"</h1>"\
+#                 "<ul>"
 
 
 

@@ -19,46 +19,85 @@ class Atributo:
         self.tipoValor = ""
         self.atributoTemporal = -1
 
+    def getTipo(self):
+        return self.tipoValor
+
+    def showMe(self):
+        print('\n-------------------------------------\n')
+        print('\n Type:'    + self.getTipo())
+        print('\n Sum:'     + str(self.getSomatorio()))
+        print('\n var:'     + str(self.getVariancia()))
+        print('\n mean:'    + str(self.getMedia()))
+        print('\n std:'     + str(self.getDesvioPadrao()))
+        print('\n qtd:'     + str(self.getQtdValores()))
+        #print('\n vals:'    + str(self.getArraydeValores()))
+
+
     def criaArrayDeAtributos(tam, arrayAtt):
         for i in range(tam):
             d = Atributo()
             arrayAtt.append(d)
 
     def incluiValor(self,valor):
+
         self.arrayDeValores.append(valor)
-        self.qtdValores += 1
-        self.somaTorio  += valor
+        self.setQtdValores(self.getQtdValores() + 1)
+        self.setSomatorio(self.getSomatorio() + valor)
+        self.setMedia()
+        self.setVariancia()
+        self.setDesvioPadrao()
 
 
+
+    def setSomatorio(self,sum):
+            self.somaTorio = sum
+            return
+
+    def getSomatorio(self):
+        return round(self.somaTorio,3)
+
+    def setQtdValores(self,qtd):
+        self.qtdValores = qtd
+        return
+
+    def getQtdValores(self):
+        return self.qtdValores
 
     def getArraydeValores(self):
         for i in range(len(self.arrayDeValores)):
             print(self.arrayDeValores[i])
 
-    def getMedia(self):
+
+    def setMedia(self):
         if self.qtdValores >=1:
             self.media = self.somaTorio / self.qtdValores
         else:
             self.media= 0.0
+
+    def getMedia(self):
+
         return round(self.media,3)
+
+    def setVariancia(self):
+        somaQuadrada = 0.0
+        for elem in self.arrayDeValores:
+            somaQuadrada += abs(elem - self.getMedia()) ** 2
+        self.variancia = somaQuadrada / (self.getQtdValores())
 
 
     def getVariancia(self):
-        somaQuadrada = 0.0
-
-        for elem in self.arrayDeValores:
-            somaQuadrada += abs(elem - self.media) ** 2
-
-        self.variancia = somaQuadrada / (self.qtdValores)
+        self.setVariancia()
         return self.variancia
 
-
-    def getDesvioPadrao(self):
+    def setDesvioPadrao(self):
         if self.qtdValores >= 1:
             self.desvioPadrao = sqrt(self.getVariancia())
         else:
             self.desvioPadrao = 0.0
+
+    def getDesvioPadrao(self):
         return round(self.desvioPadrao,3)
+
 
     def listaIntervalos(self):
         print('Atributo tem:%s intervalos' % len(self.listaDeIntervalosDeInteresse))

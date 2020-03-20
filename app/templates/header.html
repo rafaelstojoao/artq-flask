@@ -3,51 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>ART-Q: an Assotiation Rule miner Based on Temporal and Quantitative continuous data</title>
-    <style>
-        #divPoi ul {
-
-    display: inline;
-    float: left;
-    list-style: none;
-
-}
-table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    nav ul{
-        height:200px; width:18%;
-    }
-
-    nav ul{
-        overflow:hidden;
-        overflow-y:scroll;
-        overflow-x:scroll;
-    }
-
-    div#divIntervalos, div#divPoi {
-    width: auto;
-    height: 400px;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    white-space: nowrap;
-}
-
-.intervaloDiv, .poisDiv {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    border-left: 1px solid;
-    vertical-align: top;
-}
-    </style>
-    </head>
+         <link rel="stylesheet" href="{{url_for('static',filename='styles/style.css')}}">
+         <link rel="stylesheet" href="{{url_for('static',filename='styles/navbar.css')}}">
+     </head>
     <body>
-    	  <div>Microblog: <a href="/index">Home</a></div>
-    	  <div>Microblog: <a href="/artq">ART-Q</a></div>
-    	  <div>Microblog: <a href="/sobre">About</a></div>
-        <hr>
 
- <hr />
+    <div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      ART-q:
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav-links">
+
+    <a href="/index"  >Home</a>
+    <a href="/artq"  >run ART-q</a>
+    <a href="/reset"  >reset</a>
+    <a href="//github.io/jo_geek" target="_blank">see on Github</a>
+    <a href="/sobre"  >About</a>
+  </div>
+</div>
+

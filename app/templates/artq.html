@@ -1,35 +1,59 @@
 {% extends "layout.html" %}
 {% block content %}
-	<span>ART-Q é um trabalho de doutorado</span>
+
  	<div>
-
-
 		{% if configOk %}
+		<hr/>
+		<div id="setup">
+			<h2>Setup:</h2>
+			<ul>
+				<li>Min. sup: {{ pms }}</li>
+				<li>Min. conf: {{ pmc }}</li>
+				<li>Max interval size (in days): {{piw}}</li>
+				<li>Max window to consider relations (in days):  {{prw}}</li>
+			</ul>
+		</div>
+		<hr/>
 		<form action='/artq' method = "POST" enctype="multipart/form-data">
-			Base de dados (Entrada):<input name = "databaseForm" type = "file">
+			<h2>Input database:</h2><input name = "databaseForm" type = "file"><br/>
+			<span>Process data </span><input type="checkbox" value="processdata">
 			<input type="submit" Value="Hopla!" alt='the french phrase to mean "here we go" "there we go"' title='the french phrase to mean "here we go" "there we go"'>
 		</form>
+		<hr/>
 		{% else %}
+		<hr>
+				<h2>Setup:</h2>
+		<br/>
 		<form action='/artqconfig' method = "POST"  >
 			<label for="inpminsup">Min Sup: </label>
-			<input	type="number" placeholder="Please, insert minsup parameter" step="0.0001" name="inpminsup"><br/>
+			<input	type="number" placeholder="Please, insert minsup parameter" step="0.0001" name="inpminsup"> <span>blank== 0.1</span><br/>
 
 			<label for="inpminconf">Min Conf: </label>
-			<input	type="number" placeholder="Please, insert minconf parameter" step="0.0001" name="inpminconf"><br/>
+			<input	type="number" placeholder="Please, insert minconf parameter" step="0.0001" name="inpminconf"><span>blank== 0.5</span><br/>
 
 			<label for="inpintwind">Max interval size (in days): </label>
-			<input	type="number" placeholder="Please, insert the interval window parameter" name="inpintwind"><br/>
+			<input	type="number" placeholder="Please, insert the interval window parameter" name="inpintwind"><span>blank== 15</span><br/>
 
 			<label for="inprelwind">Max window to consider relations (in days) </label>
-			<input	type="number" placeholder="Please, insert the relation window parameter" name="inprelwind"><br/>
-			<input type="submit" Value="Configure parameters!" alt='Configure parameters' title='configure parameters'>
+			<input	type="number" placeholder="Please, insert the relation window parameter" name="inprelwind"><span>blank== 50</span><br/>
+
+				<button class="button"  type="submit" Value="set parameters!" alt='set parameters' title='set parameters'><span>set parameters </span></button>
 		</form>
+		<hr/>
 		{% endif %}
 
 	</div>
  	<div>
 		{% if conteudoArq %}
-			<div style='width:900px; height: 400px; overflow:scroll;' >{{ conteudoArq }}</div>
+			<div class="showData"  >
+
+
+				{% for line in conteudoArq %}
+					 {{line}}<br/>
+				{% endfor %}
+
+
+			</div>
 		{% endif %}
  	</div>
 		{% if medias %}

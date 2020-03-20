@@ -2,9 +2,9 @@ from datetime import *
 from random import randint
 import numpy as np
 import time
-
+from app import *
 from app.classIntervalo import Intervalo
-
+from app import routes
 
 
 
@@ -17,7 +17,7 @@ class Aia:
         self.timestampIntervalo = Intervalo()
         self.arrayIntervalosOrdenados = []
         lifetime = [] #é a lista de todas as datas onde os intervalos temporais se inciam
-        self.fpRelacoes = open("dados/RelacoesTemporais.csv", "a+")
+        self.fpRelacoes = open("dados/RelacoesTemporais.csv", "w+")
 
     def constroiTimeStamp(self,arrayDeTempos): # analisa todos os tempos dos intervalos e unifica em um lifetime
         self.arrayPontosTemporaisTimestamp = arrayDeTempos
@@ -37,49 +37,56 @@ class Aia:
         if  (   i1.t_i == i2.t_i
             and i1.t_f == i2.t_f   ):
             rel = "EQUAL"
-            print("equal(1,2)")
+            #print("equal(1,2)")
 
         elif(   i1.t_i == i2.t_i
             and i1.t_f < i2.t_f    ):
             rel = "STARTS"
-            print("starts(1,2)")
+            #print("starts(1,2)")
 
         elif(   i1.t_f == i2.t_f
             and i1.t_i > i2.t_i    ):
             rel = "FINISHES"
-            print("finishes(1,2)")
+            #print("finishes(1,2)")
 
         elif(   i1.t_f == i2.t_i   ):
             rel = "MEETS"
-            print("meets(1,2)")
+            #print("meets(1,2)")
 
         elif(   i1.t_f <  i2.t_i   ):
             rel = "BEFORE"
-            print("before(1,2)")
+            #print("before(1,2)")
 
         elif(   i1.t_i < i2.t_i
             and i1.t_f >  i2.t_i
             and i1.t_f <  i2.t_f   ):
             rel = "OVERLAPS"
-            print("overlaps(1,2)")
+           # print("overlaps(1,2)")
 
         elif(   i1.t_i > i2.t_i
             and i1.t_f < i2.t_f    ):
             rel = "DURING"
-            print("during(1,2)")
+           # print("during(1,2)")
 
         else:
             rel = "NONE"
             print("No relation for you!")
-        # fpRelacoes.write(str(rel)+"("+str(int1.atributoTag)+","+str(int2.atributoTag)+")")
+
 
         if  (rel != "NONE"):
             if(i1.atributoTag == i2.atributoTag and rel == "EQUAL"):
                 return
             else:
-                self.fpRelacoes.write(str(rel)+"("+str(i1.atributoTag)+";"+i2.atributoTag+"),")
+                nomesAtributos = routes.dados.getCabecalho()
+                att1Name = nomesAtributos[int(i1.atributoTag.split('_')[1])]
+                att2Name = nomesAtributos[int(i2.atributoTag.split('_')[1])]
 
-        return rel
+
+                self.fpRelacoes.write(str(rel)+"("+str(att1Name)+";"+att2Name+"),")
+                # self.fpRelacoes.write(str(rel)+"("+str(i1.atributoTag)+";"+i2.atributoTag+"),")
+                return True
+
+
 
 
 
@@ -87,26 +94,27 @@ class Aia:
         i1 = Intervalo()
         i2 = Intervalo()
 
-
-
         for int in self.arrayIntervalosOrdenados:#para cada um dos intervalos
-            # self.fpRelacoes.write("\n Data selecionada -------"+str(date.fromordinal(int[0])))
-           # self.fpRelacoes.write("\n")
-            print("Data selecionada",date.fromordinal(int[0]))
+            self.fpRelacoes.write('\n')
+          #  print("Data selecionada",date.fromordinal(int[0]))
             i1.t_i = date.fromordinal(int[0])
             i1.t_f = date.fromordinal(int[1])
             i1.atributoTag = int[2]
+
             #procurar todos os intervalos que se iniciem em até 1 janela após ele.
             selecao = [elem for elem in self.arrayIntervalosOrdenados if (elem[0] >= int[0] and (elem[0]-self.janela) <= int[0]) ]
+
+            relacaoValida = False
+
             for s in selecao:
-                # fpRelacoes.write("("+str(date.fromordinal(int[0]))+", ")
-                print(date.fromordinal(s[0]))
                 i2.t_i = date.fromordinal(s[0])
                 i2.t_f = date.fromordinal(s[1])
                 i2.atributoTag = s[2]
-                self.identificaRelacao(i1,i2)
+                relacaoValida = self.identificaRelacao(i1,i2)
 
-            self.fpRelacoes.write("\n")
+
+
+
         self.fpRelacoes.close()
 
 

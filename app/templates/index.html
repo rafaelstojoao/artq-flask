@@ -2,13 +2,11 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <h1>Hi, {{ user.username }}!</h1>
+<h1>ART-Q:</h1>
+<h2> Association Rules involving Temporality and Quantitative continuous data.</h2>
 
     <table>
-	<tr>
-		<td><input type="text" name="Path to DataBase" value="Path to Database" disabled="disabled"></td>
-		<td><button>Search</button></td>
-	</tr>
+
 	<tr>
 		<td>Arquivo: {% if arquivo %} {{arquivo}} {% else %} Não informado {%  endif %}</td>
 		<td></td>
@@ -18,6 +16,8 @@
 		<td></td>
 	</tr>
 </table>
+
+{{ user.username }}
      
 {% endblock %}
 

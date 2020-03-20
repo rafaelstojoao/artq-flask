@@ -17,7 +17,7 @@ class rule:
 
     def printRule(self):
         print(self.X,'-->',self.Y,'sup: ',self.getSupport(),' conf:',self.getConfidence(), 'lift: ',self.lift, 'conviction: ',self.conviction)
-        fpRules = open("dados/rules.rul","a+")
+        fpRules = open("dados/rules.rul","w+")
         fpRules.write(str(self.X)+'-->'+str(self.Y)+'sup: '+str(self.getSupport())+' conf:'+str(self.getConfidence())+ 'lift: '+str(self.lift)+ 'conviction: '+str(self.conviction)+"\n")
 
     def getConfidence(self):
@@ -70,7 +70,7 @@ class Apryori:
         self.listadePadroes     = []
         self.listadeCandidatos  = []
         self.listRules          = []
-        fpRules = open("dados/rules.rul","a+")
+        fpRules = open("dados/rules.rul","w+")
 
     def loadDataSetFromFile(self):
         import csv
@@ -156,7 +156,7 @@ class Apryori:
     def validaCandidatos(self,i):
         print('Validando candidatos de tamanho: ' + str(i+1))
         print('minsup: '+str(self.minSup))
-        fp = open("./dados/padroes.patt", "a+")
+        fp = open("./dados/padroes.patt", "w+")
         if i==0: # se são itens unitários para verificar
             for reg in self.dataset:
                 for cand in self.listadeCandidatos[i]:
@@ -287,7 +287,7 @@ class Apryori:
 
             print('padrões: ')
             # if(len(self.listadePadroes[i][1].items) >= 8):
-            # fp = open("padroes.csv","a+")
+            # fp = open("padroes.csv","w+")
 
             # for padrao in self.listadePadroes[i]:
               # print(str(padrao.items)+' suporte: '+str(padrao.suporte))
