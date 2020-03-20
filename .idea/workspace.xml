@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +43,7 @@
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trash" />
       <recent name="$PROJECT_DIR$/app/static/styles" />
       <recent name="$PROJECT_DIR$/app/static" />
     </key>
