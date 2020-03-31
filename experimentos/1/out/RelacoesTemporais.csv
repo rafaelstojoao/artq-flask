@@ -1,16 +1,3 @@
-
-OVERLAPS(escol_sec;Imuniza12-23),OVERLAPS(escol_sec;infla),
-STARTS(export;escol_sec),OVERLAPS(export;Imuniza12-23),OVERLAPS(export;infla),
-STARTS(import;escol_sec),STARTS(import;export),MEETS(import;Imuniza12-23),MEETS(import;infla),MEETS(import;investExterno),
-
-STARTS(infla;Imuniza12-23),
-STARTS(investExterno;Imuniza12-23),STARTS(investExterno;infla),
-STARTS(pop_growth;mort_under5),
-STARTS(life_exp;pop_growth),STARTS(life_exp;mort_under5),
-
-OVERLAPS(per_capita;export),
-STARTS(investExterno;per_capita),OVERLAPS(investExterno;export),OVERLAPS(investExterno;import),
-
-STARTS(import;export),
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b644faf331f39ca989bb94691398daf4830be8f2e1cc01a831f9eb0f73b75c21
+size 598

@@ -1,11 +1,103 @@
 {% block footer %}
-<br/>
-<br/>
-<footer class="nav rodape">
-<br />
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">ART-q</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright
+                <button  class="btn waves-effect waves-light right" id="changeTheme" type="submit" name="action">Change Theme Color
+           <i class="material-icons right">send</i>
+         </button>
+            </div>
+          </div>
 
 
-<span style="float:right; color:#fff;"> by Rafael Stoffalette  João</span>
 
- </footer>
+<script>
+
+
+
+function alteraTema(themeColor){
+      $(".nav-wrapper").css("background-color", themeColor);
+      $(".secondary-content>.material-icons").css("color", themeColor);
+      $(".btn").css("background-color", themeColor);
+      $(".page-footer").css("background-color", themeColor);
+      $(".input-field").css("color", themeColor);
+      $(".input-field>.material-icons").css("color", themeColor);
+      $(".input-field>label").css("color", themeColor);
+      $("h2").css("color", themeColor);
+      $(".btn-floating").css("background-color", themeColor);
+      }
+
+
+
+var themeColor ;
+
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+    // Store
+    themeColor = localStorage.getItem("themeColor");
+   if(themeColor == undefined)
+   {localStorage.setItem("themeColor", "blue");
+    themeColor = 'blue';
+    }
+
+} else {
+  Materialize.toast("Sorry, your browser does not support Web Storage...", 4000)
+}
+
+ alteraTema(themeColor);
+
+
+function getRandomColor() {
+   var letters = '0123456789ABCDEF'.split('');
+   var color = '#';
+   for (var i = 0; i < 6; i++ ) {
+       color += letters[Math.floor(Math.random() * 16)];
+   }
+   return color;
+}
+
+
+
+
+
+$(document).ready(function(){
+
+
+
+    $('select').formSelect();
+    $("#changeTheme").click(function(){
+      var themeColor = getRandomColor();
+      alteraTema(themeColor);
+
+      // Update Theme Color
+       if (typeof(Storage) !== "undefined") {
+        // Store
+        localStorage.setItem("themeColor", themeColor);
+
+
+       } else {
+      Materialize.toast("Sorry, your browser does not support Web Storage...", 4000)
+       }
+
+    });
+});
+</script>
+        </footer>
 {% endblock %}

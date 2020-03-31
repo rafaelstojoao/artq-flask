@@ -25,7 +25,7 @@ def listaMedias(dados,lista_de_atributos):
             # item.showMe() #método que mostra todos os valores de um atributo
             ret += "<td style='border-left: 1px dotted; padding: 20px;'>" \
                    "average("+str(item.getMedia())+ ") /<br/> std. deviation("+str(item.getDesvioPadrao())+")<br/>" \
-                    "<select name='select-att"+str(indiceAtributo)+"'>" \
+                    "<select class='input-field' name='select-att"+str(indiceAtributo)+"'>" \
                     "<option selected='selected' value='btw'> between std dev</option>" \
                     "<option value='blw'> below std dev</option>" \
                     "<option value='out'> out of std dev</option>" \
