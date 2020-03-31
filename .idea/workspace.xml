@@ -2,44 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/css/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/css/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/js/materialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/materialize/js/materialize.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/padroes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/padroes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/padroesnoite.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/padroesnoite.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/aia.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/aia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/apriori.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/apriori.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/artq.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/artq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/poi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/poi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_1_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_POIs.pois" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_2_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/1/out/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/1/out/RelacoesTemporais.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/2/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/2/RelacoesTemporais.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/3/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/3/RelacoesTemporais.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Series - Metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/ARGPopular_FILES/2327eba7-0625-43e7-9a74-f66d98383118_Series - Metadata.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/BRA-econdb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/BRA-econdb.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Series - Metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/BRAZILPopular_FILES/a29662a4-6b50-438d-ade3-cdde6407b2b6_Series - Metadata.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentos/datasets/BRdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/datasets/BRdata.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intervalos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/demodata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/demodata.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/msft.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/msft.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/percent_bachelors_degrees_women_usa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/mpl-data/sample_data/percent_bachelors_degrees_women_usa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/mt19937-testset-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/mt19937-testset-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/mt19937-testset-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/mt19937-testset-2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/pcg64-testset-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/pcg64-testset-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/pcg64-testset-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/pcg64-testset-2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/philox-testset-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/philox-testset-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/philox-testset-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/philox-testset-2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/sfc64-testset-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/sfc64-testset-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/sfc64-testset-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/numpy/random/tests/data/sfc64-testset-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_4_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/padroes.patt" beforeDir="false" afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pois.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pois.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,22 +231,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="403" y="178" width="574" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.742@0.0.1366.742" timestamp="1584541271138" />
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1585660997184">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1585681907233">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1585660997184" />
-    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1585660997183">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
+    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1585681907233">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1585660997183" />
-    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1585660997182">
+    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
+    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1585681907232">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1585660997182" />
-    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1585660997183">
+    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1585681907232" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1585681907233">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1585660997183" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
     <state width="672" height="222" key="GridCell.Tab.1.bottom" timestamp="1584571902451">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -288,10 +271,10 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="469" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.742@0.0.1366.742" timestamp="1584640434757" />
-    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1585659722884">
+    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1585673468978">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1585659722884" />
+    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1585673468978" />
     <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1584451245040">
       <screen x="0" y="0" width="1366" height="742" />
     </state>

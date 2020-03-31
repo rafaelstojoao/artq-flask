@@ -6,25 +6,24 @@ import numpy as np
 
 def listaMedias(dados,lista_de_atributos):
     ret = """
-        <table>
+        <table class='striped' >
         <tr>
         """
     for item in dados.getCabecalho():
-        ret += "<td style='border-left: 1px dotted; padding-left: 20px;'    ><b>"+str(item)+"</b> <br/>" \
-                                                                                            "Ignore attribute<input type='checkbox'></td>"
+        ret += "<td  ><b>"+str(item)+"</b> <br/></td>"
 
     ret += "</tr><tr >"
     indiceAtributo = -1
     for item in lista_de_atributos:
         indiceAtributo+=1
         if item.tipoValor == "Date":
-            ret += "<td>Date value</td>"
+            ret += "<td  >Date value</td>"
         #select = request.form.get('select-att')
 
         elif item.tipoValor == "Numeric":
             # item.showMe() #método que mostra todos os valores de um atributo
-            ret += "<td style='border-left: 1px dotted; padding: 20px;'>" \
-                   "average("+str(item.getMedia())+ ") /<br/> std. deviation("+str(item.getDesvioPadrao())+")<br/>" \
+            ret += "<td   >" \
+                   "average:<br><b>"+str(item.getMedia())+ "</b> <br/> <br/>std. deviation: <br><b>"+str(item.getDesvioPadrao())+"</b><br/>" \
                     "<select class='input-field' name='select-att"+str(indiceAtributo)+"'>" \
                     "<option selected='selected' value='btw'> between std dev</option>" \
                     "<option value='blw'> below std dev</option>" \
@@ -33,9 +32,9 @@ def listaMedias(dados,lista_de_atributos):
                     "</select>"\
                     "</td>"
         elif item.tipoValor == "String":
-            ret += "<td>String value - ignored</td>"
+            ret += "<td  >String value - ignored</td>"
         else:
-            ret+="<td></td>"
+            ret+="<td  ></td>"
     ret += """
         </tr>
         </table> <br />"""

@@ -1,20 +1,47 @@
-        #divPoi ul {
+#divPoi ul {
 
     display: inline;
     float: left;
     list-style: none;
 
 }
-table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
 
 
+#artqFormSetup, #setup{
+    width: 60%;
+    margin:0 auto;
+}
 
 
+#artqDivTableAtts {
+position: sticky;
+width: 100%;
 
+overflow: scroll;
+
+
+}
+
+
+.striped{
+
+
+ }
+
+.striped td {
+border-left: 1px dotted;
+padding-left: 20px;
+}
+
+
+.striped  td {
+
+}
+
+
+#indexEntrada{
+padding: 5%;
+}
     div#divIntervalos, div#divPoi {
     width: auto;
     height: 400px;

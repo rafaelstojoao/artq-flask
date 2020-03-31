@@ -1,0 +1,1 @@
+['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)']-->['STARTS(petal_length;sepal_width)']sup: 0.2 conf:1.0lift: 5.0conviction: 0.0
