@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="" />
+    <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/plot-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_11_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_11_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_12_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_12_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_13_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_13_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_14_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_14_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_15_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_15_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_16_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_16_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_17_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_17_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_18_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_18_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_19_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_19_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_20_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_20_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_21_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_21_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_22_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_22_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_23_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_23_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_24_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_24_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_25_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_25_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_26_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_26_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_27_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_27_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_28_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_28_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_29_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_29_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_30_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_30_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_31_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_31_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_32_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_32_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_33_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_33_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_34_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_34_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_35_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_35_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_36_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_36_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_37_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_37_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_38_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_38_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_39_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_39_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_40_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_40_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_41_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_41_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_42_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_42_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_43_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_43_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_44_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_44_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_45_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_45_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_46_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_46_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_47_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_47_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_48_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_48_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_49_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_49_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_50_INTERVALOS_interesse.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/att_50_POIs.pois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/metaData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentos/1/.~lock.exp1.odp#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pois.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/classPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/testes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_10_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_10_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_1_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_2_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_3_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_4_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_6_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_8_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_9_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_9_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/padroes.patt" beforeDir="false" afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experimentos/1/exp1.odp" beforeDir="false" afterPath="$PROJECT_DIR$/experimentos/1/exp1.odp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +162,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.myfirstflask">
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="classPlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/classPlot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,6 +225,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testes (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,41 +267,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="timeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="myproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/timeline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.myfirstflask" />
       <item itemvalue="Python.testes" />
-      <item itemvalue="Python.timeline" />
-      <item itemvalue="Python.functions" />
       <item itemvalue="Python.serving" />
+      <item itemvalue="Python.classPlot" />
+      <item itemvalue="Python.testes (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.myfirstflask" />
         <item itemvalue="Python.testes" />
+        <item itemvalue="Python.testes (1)" />
+        <item itemvalue="Python.classPlot" />
         <item itemvalue="Python.serving" />
-        <item itemvalue="Python.functions" />
-        <item itemvalue="Python.timeline" />
       </list>
     </recent_temporary>
   </component>
@@ -209,22 +322,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="403" y="178" width="574" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.742@0.0.1366.742" timestamp="1584541271138" />
-    <state width="1345" height="276" key="GridCell.Tab.0.bottom" timestamp="1584716119356">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1585506404280">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="276" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1584716119356" />
-    <state width="1345" height="276" key="GridCell.Tab.0.center" timestamp="1584716119356">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1585506404280" />
+    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1585506404279">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="276" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1584716119356" />
-    <state width="1345" height="276" key="GridCell.Tab.0.left" timestamp="1584716119355">
+    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1585506404279" />
+    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1585506404278">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="276" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1584716119355" />
-    <state width="1345" height="276" key="GridCell.Tab.0.right" timestamp="1584716119356">
+    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1585506404278" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1585506404279">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="276" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1584716119356" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1585506404279" />
     <state width="672" height="222" key="GridCell.Tab.1.bottom" timestamp="1584571902451">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -241,18 +354,18 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state width="672" height="222" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1584571902450" />
-    <state x="362" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1584572000648">
+    <state x="362" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1585655778749">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1584572000648" />
+    <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1585655778749" />
     <state x="469" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584640434757">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="469" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.742@0.0.1366.742" timestamp="1584640434757" />
-    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1584640283211">
+    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1584725373402">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1584640283211" />
+    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1584725373402" />
     <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1584451245040">
       <screen x="0" y="0" width="1366" height="742" />
     </state>

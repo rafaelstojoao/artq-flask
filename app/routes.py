@@ -101,13 +101,13 @@ def simple():
 
     p = Plot()
     fig = p.plotaIntervalosWeb(lista_de_atributos,dados.cabecalho)
-    canvas=FigureCanvas(fig)
-    png_output = BytesIO()
+    canvas      = FigureCanvas(fig)
+    png_output  = BytesIO()
     canvas.print_png(png_output)
     response=make_response(png_output.getvalue())
     response.headers['Content-Type'] = 'image/png'
     return response
-
+            
 
 
 @app.route('/imprimirIntervalos')
