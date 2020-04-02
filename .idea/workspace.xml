@@ -5,16 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/aia.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/aia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/listaIntervalos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/listaIntervalos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/poi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/poi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/att_1_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_POIs.pois" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/att_2_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_POIs.pois" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_INTERVALOS_interesse.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/att_3_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/att_4_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intervalos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pois.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pois.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

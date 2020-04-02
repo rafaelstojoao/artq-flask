@@ -62,15 +62,21 @@ div#divIntervalos, div#divPoi {
     padding-bottom: 0;
 }
 #divPoi ul {
-
-    display: inline;
+     display: inline;
     float: left;
      list-style: none;
-
 }
 
+.poilistcabecalho{
+ }
 
-#divPoi ul li{
+#divAIA {
+    width: 90%;
+    margin: 0 auto;
+    max-height: 400px;
+    overflow: scroll;
+}
+#divPoi ul li,.intervalosLi{
 
     border-bottom: 1px solid gray;
     text-align:center;
@@ -88,7 +94,7 @@ div#divIntervalos {
     display: inline-block;
     margin: 20px;
     padding: 10px;
-    border-left: 1px solid;
+
 }
 
 .showData {

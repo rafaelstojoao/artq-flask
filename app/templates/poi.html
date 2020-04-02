@@ -1,23 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 
-{% if pois %}
-<h3>Lis of Points of Interest (POI)</h3>
-<h6>row number - point (in time)</h6>
-<div  id="divPoi">
-
-{{ pois|safe }}
-    </div><br>
-{% endif %}
-
-
-<div class="collection">
-    <a class="collection-item" href="/aia"> Identifying AIA relations</a>
-    <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
-    <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show intervals visualization</a>
-</div>
+    {% if pois %}
+        <h3>List of Points of Interest (POI)</h3>
+        <h6>row number - point (in time)</h6>
+        <div  id="divPoi">
+            {{ pois|safe }}
+        </div><br>
+    {% endif %}
 
 
-
-
+    <div class="collection">
+        <a class="collection-item" href="/aia"> Identify AIA relations</a>
+        <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
+        <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show temporal intervals (visualization)</a>
+    </div>
 {% endblock %}

@@ -125,10 +125,10 @@ def listaPois(dados,lista_de_atributos,arr_setup_pois):
     cont = ""
     poi = open('pois.txt','w+')
     for at in range(len(lista_de_atributos)):
-      if dados.cabecalho[at] != 'Data':
+      if lista_de_atributos[at].qtdValores > 1:
         cont += "<div class='poisDiv'><ul>" \
-                "<li><h5>Attribute: "+ dados.cabecalho[at]+"</h5></li>" \
-                                                       "<li> Setup: "
+                "<li class='poilistcabecalho'><h5>Attribute: "+ dados.cabecalho[at]+"</h5></li>" \
+                "<li class='poilistcabecalho'> Setup: "
         poi.write(str(cont))
         if(arr_setup_pois[at] == 'btw'):
             cont += " Between starndard deviation</li>"
@@ -220,10 +220,11 @@ def geraIntervalos(lista_de_atributos, janela):
 def listarIntervalosTemporais(lista_de_atributos,dados):
     html = ""
     for i in range(len(lista_de_atributos)):
-        html += "<div class='intervaloDiv'><h1>Atributo: "+str(dados.cabecalho[i])+"</h1><ul>"
-        for interval in lista_de_atributos[i].listaDeIntervalosDeInteresse:
-            html += "<li>"+str((interval.t_i).strftime('%d/%m/%Y'))+","+str((interval.t_f).strftime('%d/%m/%Y'))+"</li>"
-        html += "</ul></div>"
+        if lista_de_atributos[i].qtdValores > 1:
+            html += "<div class='intervaloDiv'><h5>Attribute: "+str(dados.cabecalho[i])+"</h5><ul>"
+            for interval in lista_de_atributos[i].listaDeIntervalosDeInteresse:
+                html += "<li class='intervalosLi'>("+str((interval.t_i).strftime('%d/%m/%Y'))+","+str((interval.t_f).strftime('%d/%m/%Y'))+")</li>"
+            html += "</ul></div>"
 
     return  html
 
@@ -242,10 +243,8 @@ def geraAIA(lista_de_atributos,janela):
 
     aia.ordenaIntervalos(todosIntervalos)
     aia.executaAIA()
+
     import csv
-
-
-
     inputFile = "dados/RelacoesTemporais.csv"
     with open(inputFile) as decoded_file:
         linhas = csv.reader(decoded_file)

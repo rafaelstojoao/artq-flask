@@ -1,17 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 
+<h3> Temporal intervals of Interest:</h3>
 {% if intervalos %}
-<div  id="divIntervalos">
+    <div  id="divIntervalos">
 
-{{ intervalos|safe }}
+        {{ intervalos|safe }}
+    </div>
+
 {% endif %}
+ <div class="collection">
+        <a class="collection-item" href="/aia"> Identify AIA relations</a>
+         <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show temporal intervals (visualization)</a>
+    </div>
 
-</div>
-<div>
-    <form >
-        <a href="/aia"> Identificar Relações da AIA</a>
-        <a href="/intervalosInteresse.png"> Gerar Intervalos</a>
-    </form>
-</div>
+
 {% endblock %}
