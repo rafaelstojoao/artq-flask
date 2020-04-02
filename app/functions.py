@@ -22,15 +22,16 @@ def listaMedias(dados,lista_de_atributos):
 
         elif item.tipoValor == "Numeric":
             # item.showMe() #método que mostra todos os valores de um atributo
-            ret += "<td   >" \
-                   "average:<br><b>"+str(item.getMedia())+ "</b> <br/> <br/>std. deviation: <br><b>"+str(item.getDesvioPadrao())+"</b><br/>" \
-                    "<select class='input-field' name='select-att"+str(indiceAtributo)+"'>" \
+            ret += "<td><ul>" \
+                   "<li>average: <b>"+str(item.getMedia())+ "</b></li> " \
+                                                            "<li>std. deviation:<b>"+str(item.getDesvioPadrao())+"</b></li>" \
+                    "<li><select class='input-field' name='select-att"+str(indiceAtributo)+"'>" \
                     "<option selected='selected' value='btw'> between std dev</option>" \
                     "<option value='blw'> below std dev</option>" \
                     "<option value='out'> out of std dev</option>" \
                     "<option value='abv'> above  std dev</option>" \
-                    "</select>"\
-                    "</td>"
+                    "</select></li>"\
+                    "</ul></td>"
         elif item.tipoValor == "String":
             ret += "<td  >String value - ignored</td>"
         else:
@@ -124,8 +125,9 @@ def listaPois(dados,lista_de_atributos,arr_setup_pois):
     cont = ""
     poi = open('pois.txt','w+')
     for at in range(len(lista_de_atributos)):
+      if dados.cabecalho[at] != 'Data':
         cont += "<div class='poisDiv'><ul>" \
-                "<li>Attribute: "+ dados.cabecalho[at]+"</li>" \
+                "<li><h5>Attribute: "+ dados.cabecalho[at]+"</h5></li>" \
                                                        "<li> Setup: "
         poi.write(str(cont))
         if(arr_setup_pois[at] == 'btw'):
@@ -143,9 +145,9 @@ def listaPois(dados,lista_de_atributos,arr_setup_pois):
         try:
             for i in range(len(lista_de_atributos[at].listaTransacoesInteresse)):
                 poi.write("<li>["+str(lista_de_atributos[at].listaTransacoesInteresse[i])+", "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"]</li>")
-                cont += "<li>["+str(lista_de_atributos[at].listaTransacoesInteresse[i])+", "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"]</li>"
+                cont += "<li> "+str(lista_de_atributos[at].listaTransacoesInteresse[i])+"   -   "+str(lista_de_atributos[at].listaDePontosTemporaisDeInteresse[i])+"</li>"
         except:
-            print('not accecible')
+            print('not accessible')
 
         cont += "</ul></div>"
 

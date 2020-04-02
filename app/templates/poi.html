@@ -2,12 +2,15 @@
 {% block content %}
 
 {% if pois %}
+<h3>Lis of Points of Interest (POI)</h3>
+<h6>row number - point (in time)</h6>
 <div  id="divPoi">
 
 {{ pois|safe }}
+    </div><br>
 {% endif %}
 
-</div><br>
+
 <div class="collection">
     <a class="collection-item" href="/aia"> Identifying AIA relations</a>
     <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>

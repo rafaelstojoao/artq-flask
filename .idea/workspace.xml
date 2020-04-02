@@ -5,11 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/aia.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/aia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/apriori.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/apriori.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/artq.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/artq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/poi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/poi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
@@ -20,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/dados/att_3_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_3_POIs.pois" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_4_POIs.pois" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_POIs.pois" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/padroes.patt" beforeDir="false" afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pois.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pois.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,9 +268,9 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1585673468978" />
-    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1584451245040">
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1585861125810">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1584451245040" />
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1585861125810" />
   </component>
 </project>
