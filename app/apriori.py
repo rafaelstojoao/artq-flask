@@ -17,7 +17,7 @@ class rule:
 
     def printRule(self):
         print(self.X,'-->',self.Y,'sup: ',self.getSupport(),' conf:',self.getConfidence(), 'lift: ',self.lift, 'conviction: ',self.conviction)
-        fpRules = open("dados/rules.rul","w+")
+        fpRules = open("dados/rules.rul","a+")
         fpRules.write(str(self.X)+'-->'+str(self.Y)+'sup: '+str(self.getSupport())+' conf:'+str(self.getConfidence())+ 'lift: '+str(self.lift)+ 'conviction: '+str(self.conviction)+"\n")
 
     def getConfidence(self):
@@ -71,6 +71,7 @@ class Apryori:
         self.listadeCandidatos  = []
         self.listRules          = []
         fpRules = open("dados/rules.rul","w+")
+        self.fpPat = open("dados/padroes.patt","w+")
 
     def loadDataSetFromFile(self):
         import csv
@@ -156,7 +157,7 @@ class Apryori:
     def validaCandidatos(self,i):
         print('Validando candidatos de tamanho: ' + str(i+1))
         print('minsup: '+str(self.minSup))
-        fp = open("./dados/padroes.patt", "w+")
+        # fp = open("./dados/padroes.patt", "a+")
         if i==0: # se são itens unitários para verificar
             for reg in self.dataset:
                 for cand in self.listadeCandidatos[i]:
@@ -166,9 +167,15 @@ class Apryori:
 
             for cand in self.listadeCandidatos[i]:
                 cand.suporte = cand.counting/self.tamanhoDataset
+                print( cand.counting)
+                print( cand.suporte )
+                print( self.tamanhoDataset )
                 if(cand.suporte >= self.minSup):
+                    print('candidato validado')
+                    print(str(cand))
                     listaPadroes.append(cand)
-                    fp.write(str(cand.items) + ' suporte: ' + str(cand.suporte) + "\n")
+                    # fp.write(str(cand.items) + ' suporte: ' + str(cand.suporte) + "\n")
+                    print(str(cand.items) + ' suporte: ' + str(cand.suporte) + "\n")
 
             return listaPadroes
 
@@ -184,7 +191,7 @@ class Apryori:
                 cand.suporte = cand.counting / self.tamanhoDataset
                 if (cand.suporte >= self.minSup):
                     listaPadroes.append(cand)
-                    fp.write(str(cand.items) + ' suporte: ' + str(cand.suporte) + "\n")
+                    #fp.write(str(cand.items) + ' suporte: ' + str(cand.suporte) + "\n")
             return listaPadroes
 
     def sublist(self, lst1, lst2):
@@ -285,13 +292,13 @@ class Apryori:
         while (self.listadeCandidatos[i]):
             self.listadePadroes.append(self.validaCandidatos(i))
 
-            print('padrões: ')
+            # print('padrões: ')
             # if(len(self.listadePadroes[i][1].items) >= 8):
-            # fp = open("padroes.csv","w+")
+            #     fp = open("padroes.patt","a+")
 
-            # for padrao in self.listadePadroes[i]:
-              # print(str(padrao.items)+' suporte: '+str(padrao.suporte))
-              # fp.write(str(padrao.items)+' suporte: '+str(padrao.suporte)+"\n")
+            for padrao in self.listadePadroes[i]:
+                print(str(padrao.items)+' suporte: '+str(padrao.suporte))
+                self.fpPat.write(str(padrao.items)+' suporte: '+str(padrao.suporte)+"\n")
             i += 1
             self.aprioriGen(i)
             # for cand in self.listadeCandidatos[i]:
@@ -301,7 +308,7 @@ class Apryori:
 
         for regra in self.listRules:
             regra.printRule()
-
+        self.fpPat.close()
 
 
 # if __name__ == '__main__':

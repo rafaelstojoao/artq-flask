@@ -110,7 +110,16 @@ div#divIntervalos {
     height:425px;
 }
 
+#divPadroes,#divRegras {
 
+    width: 90%;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+    overflow: scroll;
+    max-height: 300px;
+    margin-bottom: 50px;
+
+}
 .rodape {
   position: fixed;
   bottom: 0;

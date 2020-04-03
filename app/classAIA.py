@@ -75,17 +75,18 @@ class Aia:
 
         if  (rel != "NONE"):
             if(i1.atributoTag == i2.atributoTag and rel == "EQUAL"):
-                return
-            else:
+                return 0
+            elif rel != "":
                 nomesAtributos = routes.dados.getCabecalho()
                 att1Name = nomesAtributos[int(i1.atributoTag.split('_')[1])]
                 att2Name = nomesAtributos[int(i2.atributoTag.split('_')[1])]
 
 
-                self.fpRelacoes.write(str(rel)+"("+str(att1Name)+";"+att2Name+"),")
+                # self.fpRelacoes.write(str(rel)+"("+str(att1Name)+";"+att2Name+"),")
                 # self.fpRelacoes.write(str(rel)+"("+str(i1.atributoTag)+";"+i2.atributoTag+"),")
-                return True
-
+                return str(rel)+"("+str(att1Name)+";"+att2Name+"),"
+        else:
+            return 0
 
 
 
@@ -93,9 +94,12 @@ class Aia:
     def executaAIA(self):
         i1 = Intervalo()
         i2 = Intervalo()
-
+        boolrelacoes = 0
         for int in self.arrayIntervalosOrdenados:#para cada um dos intervalos
-            self.fpRelacoes.write('\n')
+
+            if boolrelacoes==1:
+                self.fpRelacoes.write('\n')
+                boolrelacoes =0
           #  print("Data selecionada",date.fromordinal(int[0]))
             i1.t_i = date.fromordinal(int[0])
             i1.t_f = date.fromordinal(int[1])
@@ -111,8 +115,9 @@ class Aia:
                 i2.t_f = date.fromordinal(s[1])
                 i2.atributoTag = s[2]
                 relacaoValida = self.identificaRelacao(i1,i2)
-
-
+                if relacaoValida != 0:
+                    self.fpRelacoes.write(str(relacaoValida))
+                    boolrelacoes = 1
 
 
         self.fpRelacoes.close()

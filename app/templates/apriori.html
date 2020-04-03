@@ -2,29 +2,29 @@
 {% block content %}
 
 {% if padroes %}
-<div  id="divPadroes">
-<h1>Padrões encontrados</h1>
-    <br />
-{{ padroes|safe }}
+    <h3>Patterns in dataset</h3>
+    <div  id="divPadroes">
+
+
+    {{ padroes|safe }}
 {% endif %}
 
 </div>
 
 {% if regras %}
-<div  id="divRegras">
-<br />
-    <h1>Regras de associação geradas</h1>
-<br />
-{{ regras|safe }}
-{% endif %}
 
-</div>
+    <h3>Association Rules generated</h3>
+    <div  id="divRegras">
+
+    {{ regras|safe }}
+    {% endif %}
+
+    </div>
 
 
 <br>
 <div class="collection">
-    <a class="collection-item" href="/intervalosInteresse.png"> Gerar Intervalos</a>
-     <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
+    <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
     <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show intervals visualization</a>
 </div>
 {% endblock %}

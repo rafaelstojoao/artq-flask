@@ -3,6 +3,7 @@
 from app.classIntervalo import *
 from app.classDados import *
 import numpy as np
+import csv
 
 def listaMedias(dados,lista_de_atributos):
     ret = """
@@ -257,32 +258,29 @@ def geraAIA(lista_de_atributos,janela):
     return conteudo
 
 
-def listaPadroes():
-    import csv
-    inputFile = "dados/padroes.patt"
-    with open(inputFile,'w+') as decoded_file:
-        linhas = csv.reader(decoded_file)
-
-        conteudo = ""
-        for row in linhas:
-            if row != " ":
-                conteudo += ' '.join(row) + '<br/>'
-
-    return conteudo
 
 def listaRegras():
-
-    import csv
     inputFile = "dados/rules.rul"
     with open(inputFile) as decoded_file:
         linhas = csv.reader(decoded_file)
-
         conteudo = ""
         for row in linhas:
             if row != " ":
                 conteudo += str(row) + '<br/>'
 
     return conteudo
+
+def listaPadroes():
+    inpFilPat = "dados/padroes.patt"
+    with open(inpFilPat,'r') as decoded_file:
+        rowspat = csv.reader(decoded_file)
+        contPAt = ""
+        for rpat in rowspat:
+            if rpat != " ":
+                print(rpat)
+                contPAt += str(rpat) + '<br/>'
+    return contPAt
+
 
 # def geraAIA2(lista_de_atributos):
 #     import time

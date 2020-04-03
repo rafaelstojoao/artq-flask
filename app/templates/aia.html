@@ -2,6 +2,8 @@
 {% block content %}
 
 {% if relat %}
+
+<h3>Allen's Intervalar Algebra relations:</h3>
 <div  id="divAIA">
 
     {{ relat|safe }}
@@ -11,15 +13,11 @@
 
 
 
-<br>
-<div class="collection">
-    <a class="collection-item" href="/apriori"> Encontrar padrões e gerar regras de associação</a>
-    <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
-    <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show intervals visualization</a>
-</div>
-<div>
-    <form >
+ 
 
-    </form>
-</div>
+     <div class="collection">
+        <a class="collection-item" href="/apriori"> Identify patterns and Generate association rules</a>
+        <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
+        <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show temporal intervals (visualization)</a>
+    </div>
 {% endblock %}

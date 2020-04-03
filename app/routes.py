@@ -32,7 +32,10 @@ def apriori():
 
     pat = functions.listaPadroes()
     reg = functions.listaRegras()
+
+
     return render_template('apriori.html', padroes=pat, regras=reg)
+
 
 
 

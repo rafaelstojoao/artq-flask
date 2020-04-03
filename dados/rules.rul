@@ -1,1 +1,6 @@
-['STARTS(sepal_length;petal_length)', 'STARTS(sepal_length;petal_width)']-->['STARTS(sepal_length;sepal_width)']sup: 0.1 conf:1.0lift: 10.0conviction: 0.0
+['STARTS(petal_length;petal_width)']-->['STARTS(petal_length;sepal_length)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0
+['STARTS(petal_length;petal_width)']-->['STARTS(petal_length;sepal_width)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0
+['STARTS(petal_length;sepal_length)']-->['STARTS(petal_length;sepal_width)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0
+['STARTS(petal_width;sepal_length)']-->['STARTS(petal_width;sepal_width)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0
+['STARTS(petal_length;petal_width)']-->['STARTS(petal_length;sepal_length)', 'STARTS(petal_length;sepal_width)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0
+['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)']-->['STARTS(petal_length;sepal_width)']sup: 0.3333333333333333 conf:1.0lift: 3.0conviction: 0.0

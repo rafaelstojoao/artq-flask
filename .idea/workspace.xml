@@ -2,17 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c3eebd5-0458-48c1-99c8-44a49885644e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/templates/patterns.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classAIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/classAIA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/padroes.patt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/aia.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/aia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/listaIntervalos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/listaIntervalos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/poi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/poi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/apriori.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/apriori.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dados/RelacoesTemporais.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_10_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_11_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_11_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_12_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_12_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_13_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_13_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_14_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_14_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_15_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_15_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_16_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_16_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_17_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_17_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_18_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_18_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_19_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_19_POIs.pois" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_1_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_20_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_20_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_21_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_21_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_22_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_22_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_23_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_23_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_24_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_24_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_25_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_25_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_26_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_26_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_27_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_27_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_28_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_28_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_29_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_29_POIs.pois" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_2_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_30_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_30_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_31_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_31_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_32_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_32_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_33_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_33_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_34_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_34_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_35_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_35_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_36_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_36_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_37_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_37_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_38_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_38_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_39_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_39_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_40_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_40_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_41_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_41_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_42_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_42_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_43_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_43_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_44_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_44_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_45_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_45_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_46_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_46_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_47_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_47_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_48_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_48_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_49_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_49_POIs.pois" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" beforeDir="false" afterPath="$PROJECT_DIR$/dados/att_4_INTERVALOS_interesse.int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_50_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_50_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_5_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_5_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_6_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_7_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_7_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_8_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_9_INTERVALOS_interesse.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/att_9_POIs.pois" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/padroes.patt" beforeDir="false" afterPath="$PROJECT_DIR$/dados/padroes.patt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/rules.rul" beforeDir="false" afterPath="$PROJECT_DIR$/dados/rules.rul" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intervalos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intervalos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pois.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pois.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -221,22 +319,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="403" y="178" width="574" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.742@0.0.1366.742" timestamp="1584541271138" />
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1585681907233">
+    <state width="1345" height="124" key="GridCell.Tab.0.bottom" timestamp="1585885609752">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
-    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1585681907233">
+    <state width="1345" height="124" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1585885609752" />
+    <state width="1345" height="124" key="GridCell.Tab.0.center" timestamp="1585885609752">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
-    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1585681907232">
+    <state width="1345" height="124" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1585885609752" />
+    <state width="1345" height="124" key="GridCell.Tab.0.left" timestamp="1585885609751">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1585681907232" />
-    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1585681907233">
+    <state width="1345" height="124" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1585885609751" />
+    <state width="1345" height="124" key="GridCell.Tab.0.right" timestamp="1585885609752">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1585681907233" />
+    <state width="1345" height="124" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1585885609752" />
     <state width="672" height="222" key="GridCell.Tab.1.bottom" timestamp="1584571902451">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -261,10 +359,10 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="469" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.742@0.0.1366.742" timestamp="1584640434757" />
-    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1585673468978">
+    <state x="352" y="0" width="709" height="742" key="find.popup" timestamp="1585881365793">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1585673468978" />
+    <state x="352" y="0" width="709" height="742" key="find.popup/0.0.1366.742@0.0.1366.742" timestamp="1585881365793" />
     <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1585861125810">
       <screen x="0" y="0" width="1366" height="742" />
     </state>

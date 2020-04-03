@@ -1,0 +1,11 @@
+['STARTS(petal_length;petal_width)'] suporte: 0.3333333333333333
+['STARTS(petal_length;sepal_length)'] suporte: 0.3333333333333333
+['STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
+['STARTS(petal_width;sepal_length)'] suporte: 0.3333333333333333
+['STARTS(petal_width;sepal_width)'] suporte: 0.3333333333333333
+['STARTS(sepal_width;sepal_length)'] suporte: 0.3333333333333333
+['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)'] suporte: 0.3333333333333333
+['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
+['STARTS(petal_length;sepal_length)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
+['STARTS(petal_width;sepal_length)', 'STARTS(petal_width;sepal_width)'] suporte: 0.3333333333333333
+['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333

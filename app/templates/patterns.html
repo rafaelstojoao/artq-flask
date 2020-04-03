@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    {% if patterns %}
+        <h3>List of patterns (temporal relations according to Allen's algebra)</h3>
+        <h6>row number - point (in time)</h6>
+        <div  id="divPoi">
+            {{ patterns|safe }}
+        </div><br>
+    {% endif %}
+
+
+    <div class="collection">
+        <a class="collection-item" href="/aia"> Identify AIA relations</a>
+        <a  class="collection-item" href="/imprimirIntervalos" target="_blank"> List temporal intervals</a>
+        <a  class="collection-item" href="/intervalosInteresse.png" target="_blank">Show temporal intervals (visualization)</a>
+    </div>
+{% endblock %}
