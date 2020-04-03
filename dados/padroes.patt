@@ -1,11 +1,3 @@
-['STARTS(petal_length;petal_width)'] suporte: 0.3333333333333333
-['STARTS(petal_length;sepal_length)'] suporte: 0.3333333333333333
-['STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
-['STARTS(petal_width;sepal_length)'] suporte: 0.3333333333333333
-['STARTS(petal_width;sepal_width)'] suporte: 0.3333333333333333
-['STARTS(sepal_width;sepal_length)'] suporte: 0.3333333333333333
-['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)'] suporte: 0.3333333333333333
-['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
-['STARTS(petal_length;sepal_length)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
-['STARTS(petal_width;sepal_length)', 'STARTS(petal_width;sepal_width)'] suporte: 0.3333333333333333
-['STARTS(petal_length;petal_width)', 'STARTS(petal_length;sepal_length)', 'STARTS(petal_length;sepal_width)'] suporte: 0.3333333333333333
+['OVERLAPS(CHIL_ escol_sec;ARG_export)'] suporte: 0.02702702702702703
+['OVERLAPS(CHIL_ escol_sec;CHIN_ export)'] suporte: 0.02702702702702703
+['OVERLAPS(CHIL_ escol_sec;ARG_export)', 'OVERLAPS(CHIL_ escol_sec;CHIN_ export)'] suporte: 0.02702702702702703

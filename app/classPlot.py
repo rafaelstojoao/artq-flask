@@ -82,7 +82,7 @@ class Plot:
         minX = 1000000000.0
         maxX = 0.0
         listaLegendasX = []
-        width_in_inches = 40
+        width_in_inches = 20
         height_in_inches = 10
         dots_per_inch = 70
 
