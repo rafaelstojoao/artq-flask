@@ -1,1 +1,1 @@
-['OVERLAPS(CHIL_ escol_sec;ARG_export)']-->['OVERLAPS(CHIL_ escol_sec;CHIN_ export)']sup: 0.02702702702702703 conf:1.0lift: 37.0conviction: 0.0
+['MEETS(investExterno;mort_under5)']-->['MEETS(investExterno;per_capita)']sup: 0.25 conf:1.0lift: 4.0conviction: 0.0

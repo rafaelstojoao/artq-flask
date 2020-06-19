@@ -26,11 +26,11 @@ def listaMedias(dados,lista_de_atributos):
             ret += "<td><ul>" \
                    "<li>average: <b>"+str(item.getMedia())+ "</b></li> " \
                                                             "<li>std. deviation:<b>"+str(item.getDesvioPadrao())+"</b></li>" \
-                    "<li><select class='input-field' name='select-att"+str(indiceAtributo)+"'>" \
+                    "<li><select classeeee='input-field' name='select-att"+str(indiceAtributo)+"'>" \
                     "<option selected='selected' value='btw'> between std dev</option>" \
                     "<option value='blw'> below std dev</option>" \
                     "<option value='out'> out of std dev</option>" \
-                    "<option value='abv'> above  std dev</option>" \
+                    "<option "+ ("selected='selected'" if indiceAtributo in [1,2,3,5,6,8,9,10] else "''")+"value='abv'> above  std dev</option>" \
                     "</select></li>"\
                     "</ul></td>"
         elif item.tipoValor == "String":

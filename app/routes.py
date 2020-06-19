@@ -5,8 +5,8 @@ from app.classDados import Dados
 dados = Dados()
 lista_de_atributos = []
 
-janela_para_intervalo = 15
-janela_para_relacoes = 50
+janela_para_intervalo = 370
+janela_para_relacoes = 370
 minsup = 0.1
 minconf = 0.5
 
@@ -34,7 +34,7 @@ def apriori():
     reg = functions.listaRegras()
 
 
-    return render_template('apriori.html', padroes=pat, regras=reg)
+    return render_template('apriori.html', padroes=pat, regras=reg,qtdPat = pat.count('<br/>'),qtdRul=reg.count('<br/>'))
 
 
 
@@ -51,8 +51,8 @@ def artqconfig():
         req = request.form
         minsup      = float(req.get("inpminsup"))   if req.get("inpminsup") else 0.1
         minconf     = float(req.get('inpminconf'))  if  req.get("inpminconf") else 0.5
-        janela_para_relacoes    =   int(req.get('inprelwind')) if req.get('inprelwind')    else 15
-        janela_para_intervalo   =   int(req.get('inpintwind')) if req.get('inpintwind')    else 50
+        janela_para_relacoes    =   int(req.get('inprelwind')) if req.get('inprelwind')    else 370
+        janela_para_intervalo   =   int(req.get('inpintwind')) if req.get('inpintwind')    else 370
 
         return render_template('artq.html', configOk=True, pms = minsup, pmc = minconf, prw = janela_para_relacoes, piw = janela_para_intervalo)
 
@@ -123,7 +123,9 @@ def impIntervalos():
     #print(inter)
     arq.close()
     return render_template('listaIntervalos.html', intervalos = inter)
-
+@app.route('/run.html')
+def sisartq():
+    return render_template('run.html')
 
 @app.route('/poi', methods=['GET', 'POST'])
 #@app.route('/poi')
@@ -160,4 +162,4 @@ def aia():
     # print(janela_para_relacoes)
 
     relations = functions.geraAIA(lista_de_atributos,janela_para_relacoes)
-    return render_template('aia.html', relat = relations)
+    return render_template('aia.html', relat = relations, qtdRel = relations.count('<br/>'))

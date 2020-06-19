@@ -100,3 +100,9 @@ body {
     position:relative;
     bottom:0;
 }
+
+
+#parametersNAvTop {
+    color: #fff;
+    margin-left: 40px;
+}

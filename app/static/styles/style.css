@@ -165,4 +165,10 @@ div#divIntervalos {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}}
+}
+
+
+#parametersNAvTop {
+    color: #fff;
+    margin-left: 40px;
+}

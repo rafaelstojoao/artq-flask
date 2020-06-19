@@ -133,3 +133,4 @@ class Plot:
         pl.legend(title="Intervalos temporais de interesse")
        # fig.autofmt_xdate()
         return fig
+ 

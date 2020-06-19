@@ -1,3 +1,6 @@
-['OVERLAPS(CHIL_ escol_sec;ARG_export)'] suporte: 0.02702702702702703
-['OVERLAPS(CHIL_ escol_sec;CHIN_ export)'] suporte: 0.02702702702702703
-['OVERLAPS(CHIL_ escol_sec;ARG_export)', 'OVERLAPS(CHIL_ escol_sec;CHIN_ export)'] suporte: 0.02702702702702703
+['EQUAL(export;import)'] suporte: 0.25
+['EQUAL(import;export)'] suporte: 0.25
+['MEETS(investExterno;mort_under5)'] suporte: 0.25
+['MEETS(investExterno;per_capita)'] suporte: 0.25
+['STARTS(per_capita;mort_under5)'] suporte: 0.25
+['MEETS(investExterno;mort_under5)', 'MEETS(investExterno;per_capita)'] suporte: 0.25
